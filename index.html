@@ -1,311 +1,233 @@
-	<!DOCTYPE html PUBLIC
-	"-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-	<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-	<link rel="stylesheet" type="text/css" href="styles/ucsd.css"/>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title>Nadia Polikarpova</title>
-	</head>
-	<body>
-	
-	<div id="nav_bar_wrapper">
-	<div id="nav_bar">
-	<ul>
-	<li><a href="/~npolikarpova">home</a></li>
-	<li><a href="/~npolikarpova/#projects">projects</a></li>
-	<li><a href="/~npolikarpova/#papers">papers</a></li>
-	<li><a href="/~npolikarpova/#students">students</a></li>
-	<li><a href="/~npolikarpova/#teaching">teaching</a></li>
-	<li><a href="/~npolikarpova/#activities">activities</a></li>
-	</ul>
-	</div>
-	</div>
-	
-	<div class="page">
-	<div class="page_content">
-	<div id="contacts">
-	<div class="portrait">
-	<a href="images/nadia_polikarpova.jpg"><img src="images/nadia.jpg" alt="Picture of Nadia Polikarpova"/></a>
-	</div>
-	
-	<div class="contact">
-	<!-- <h1>NADIA POLIKARPOVA</h1> -->
-	<h1>nadia polikarpova</h1>
-	
-	Assistant Professor<br/>
-	Department of Computer Science and Engineering<br/>
-	University of California, San Diego<br/>
-	Office: CSE 3102<br/>
-	Email: npolikarpova [at] eng.ucsd.edu<br/><br/>
-	
-	
-	<a href="cv_nadia_polikarpova.pdf">cv</a> |
-	<a href="https://scholar.google.com/citations?user=CxzUX0EAAAAJ&hl=en">google scholar</a> |
-	<a href="https://bitbucket.org/nadiapolikarpova">bitbucket</a> |
-	<a href="https://twitter.com/polikarn">twitter</a>
-	</div>
-	</div>
-	
-	<p>
-	I am an Assistant Professor in the <a href="https://cse.ucsd.edu/">Computer Science and Engineering</a> Department at the <a href="https://ucsd.edu/">University of California, San Diego</a>.
-	I am a member of the <a href="http://cseweb.ucsd.edu/groups/progsys/">Programming Systems</a> group.
-	I completed my PhD in 2014 at <a href="https://www.ethz.ch/en.html">ETH Zurich</a> (Switzerland), under the supervision of <a href="http://se.inf.ethz.ch/people/meyer/">Bertrand Meyer</a>.
-	After that, I spent almost three years as a postdoc at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, where I worked with <a href="http://people.csail.mit.edu/asolar/">Armando Solar-Lezama</a>.
-	</p>
-	
-	<p>
-	My research interests span the areas of programming languages and formal methods; in particular, I'm interested in building practical tools and techniques that make it easier for programmers to construct secure and reliable software.
-	My agenda is to combine the growing power of <em>automated logical reasoning</em> and the recent advances in <em>program synthesis</em>
-	to build next-generation programming languages, in which the programmer directly states high-level system requirements (such as data invariants, resource bounds, or security policies) and the compiler takes on the error-prone task of enforcing these requirements.
-	</p>
-	
-	<!--p>
-	<b>I'm looking for graduate students!</b>
-	If you are passionate about principled ways to build high-quality software
-	(and especially the combination of types, functional programming, and automated reasoning),
-	consider applying to our <a href="https://apply.grad.ucsd.edu/home">PhD program</a> (the deadline is Dec 18).
-	All you need to know about grad school
-	is conveniently summarized in this <a href="https://www.youtube.com/watch?v=05L0hOw2yVs">music video</a>
-	featuring our own Ranjit Jhala!
-	</p-->
-	
-	<div class="anchor" id="projects"></div>
-	<h2>PROJECTS</h2>
-	
-	<h3>active projects</h3>
-	<ul>
-	<li><a href="https://bitbucket.org/nadiapolikarpova/synquid">Synquid</a>: program synthesis from refinement types
-	[try <a href="http://comcom.csail.mit.edu/comcom/#Synquid">online</a>]</li>
-	<li><a href="lifty/">Lifty</a>: enforcing information flow security using types and synthesis
-	[try <a href="http://comcom.csail.mit.edu/demos/#11-instagram">online</a>]</li>
-	</ul>
-	
-	<h3>older projects</h3>
-	<ul>
-	<li><a href="http://comcom.csail.mit.edu/autoproof">AutoProof</a>: an automated deductive verifier for programs that manipulate complex object structures
-	[try <a href="http://comcom.csail.mit.edu/comcom/#AutoProof">online</a>]</li>
-	<li><a href="https://github.com/nadia-polikarpova/eiffelbase2">EiffelBase2</a>: a fully verified container library</li>	
-	<li><a href="https://bitbucket.org/nadiapolikarpova/boogaloo/">Boogaloo</a>: a symbolic execution engine for Boogie
-	[try <a href="http://comcom.csail.mit.edu/comcom/#Boogaloo">online</a>]</li>
-	<li><a href="citadel/">CITADEL</a>: dynamic invariant inference meets Design-by-Contract</li>
-	</ul>
-	
-	<div class="anchor" id="papers"></div>
-	<h2>PAPERS</h2>
-	<ul>
-	<li><strong>Enforcing Information Flow Policies with Type-Targeted Program Synthesis</strong>,
-	Nadia Polikarpova,
-	Jean Yang,
-	Shachar Itzhaky,
-	Travis Hance,
-	Armando Solar-Lezama.
-	<em>In submission.</em>
-	<a href="publications/lifty.pdf">[pdf]</a>
-	</li>
-	<li><strong>Synthesis of Recursive ADT Transformations</strong>,
-	Jeevana Priya Inala,
-	Nadia Polikarpova,
-	Xiaokang Qiu,
-	Benjamin S. Lerner,
-	Armando Solar-Lezama.
-	<em>TACAS'17.</em>
-	<a href="publications/syntrec.pdf">[pdf]</a>
-	</li>	
-	<li><strong>Program Synthesis from Polymorphic Refinement Types</strong>,
-	Nadia Polikarpova,
-	Ivan Kuraj,
-	Armando Solar-Lezama.
-	<em>PLDI'16.</em>
-	<a href="publications/pldi16.pdf">[pdf]</a>
-	<a href="http://arxiv.org/abs/1510.08419">[tech report]</a>
-	<a href="publications/pldi16-slides.pdf">[slides]</a>
-	</li>	
-	<li><strong>A Fully Verified Container Library</strong>,
-	Nadia Polikarpova,
-	Julian Tschannen,
-	Carlo A. Furia.
-	<em>FM'15.</em>
-	<font color="#a80927">Best paper award</font>
-	<a href="publications/fm15.pdf">[pdf]</a>
-	<a href="https://github.com/nadia-polikarpova/eiffelbase2">[repository]</a><br/>
-	Extended version in <em>FAoC</em>
-	<a href="https://link.springer.com/article/10.1007/s00165-017-0435-1">[pdf]</a>
-	</li>	
-	<li><strong>AutoProof: Auto-active Functional Verification of Object-oriented Programs</strong> (Tool Paper),
-	Julian Tschannen,
-	Carlo A. Furia,
-	Martin Nordio,
-	Nadia Polikarpova.
-	<em>TACAS'15.</em>
-	<a href="http://se.inf.ethz.ch/people/tschannen/publications/tfnp-tacas15.pdf">[pdf]</a><br/>
-	Extended version in <em>STTT</em>
-	<a href="https://link.springer.com/article/10.1007/s10009-016-0419-0">[pdf]</a>
-	</li>
-	<li><strong>Specified and Verified Reusable Components</strong>,
-	Nadia Polikarpova.
-	<em>PhD Thesis.</em>
-	<a href="publications/thesis.pdf">[pdf]</a>
-	</li>
-	<li><strong>Flexible Invariants Through Semantic Collaboration</strong>,
-	Nadia Polikarpova,
-	Julian Tschannen,
-	Carlo A. Furia,
-	Bertrand Meyer.
-	<em>FM'14.</em>
-	<a href="publications/fm14.pdf">[pdf]</a>
-	<a href="sc/">[supplementary material]</a>
-	</li>
-	<li><strong>To Run What No One Has Run Before: Executing an Intermediate Verification Language</strong>,
-	Nadia Polikarpova,
-	Carlo A. Furia,
-	Scott West.
-	<em>RV'13.</em>
-	<a href="publications/rv13.pdf">[pdf]</a>
-	<a href="boogaloo/">[supplementary material]</a>
-	</li>
-	<li><strong>What Good Are Strong Specifications?</strong>	
-	Nadia Polikarpova,
-	Carlo A. Furia,
-	Yu Pei,
-	Yi Wei,
-	Bertrand Meyer.
-	<em>ICSE'13.</em>
-	<a href="publications/icse13.pdf">[pdf]</a>
-	<a href="http://youtu.be/0_V6ggqoRKI">[video]</a>
-	<a href="mbctesting/">[supplementary material]</a>
-	</li>
-	<li><strong>Verified Calculations</strong>,
-	K. Rustan M. Leino,
-	Nadia Polikarpova.
-	<em>VSTTE'13.</em>
-	<a href="publications/vstte13.pdf">[pdf]</a>
-	<a href="poc/">[supplementary material]</a>
-	</li>
-	<li><strong>Verifying implementations of security protocols by refinement</strong>,
-	Nadia Polikarpova,
-	Micha&#x0142; Moskal.
-	<em>VSTTE'12.</em>
-	<a href="publications/vstte12.pdf">[pdf]</a>
-	</li>
-	<li><strong>The 1st Verified Software Competition: Experience Report</strong>,
-	Vladimir Klebanov et. al.
-	<em>FM'11.</em>
-	<font color="#a80927">Best paper award</font>
-	<a href="publications/fm11.pdf">[pdf]</a>	
-	</li>
-	<li><strong>Specifying Reusable Components</strong>,
-	Nadia Polikarpova,
-	Carlo A. Furia,
-	Bertrand Meyer.
-	<em>VSTTE'10.</em>
-	<a href="publications/vstte10.pdf">[pdf]</a>
-	</li>
-	<li><strong>A comparative study of programmer-written and automatically inferred contracts</strong>,
-	Nadia Polikarpova,
-	Ilinca Ciupa,
-	Bertrand Meyer.
-	<em>ISSTA'09.</em>
-	<a href="publications/issta09.pdf">[pdf]</a>
-	</li>
-	</ul>
-	
-	<div class="anchor" id="students"></div>
-	<h2>STUDENTS</h2>
-	<ul>
-	<li><a href="https://tjknoth.github.io/">Tristan Knoth</a></li>
-	<li><a href="http://goto.ucsd.edu/~john/">John Sarracino</a> (co-advised with <a href="http://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a>)</li>
-	</ul>
-	
-	<div class="anchor" id="teaching"></div>
-	<h2>TEACHING</h2>
-	
-	<table>
-	<tr>
-	<td><strong>Spring 2018</strong></td>
-	<td><a href="https://nadia-polikarpova.github.io/cse130-sp18/">CSE 130: Programming Languages</a></td>
-	</tr>
-	<tr>
-	<td><strong>Fall 2017</strong></td>
-	<td><a href="https://github.com/nadia-polikarpova/cse291-program-synthesis/wiki">CSE 291: Program Synthesis</a></td>
-	</tr>
-	</table>
-	
-	
-	<div class="anchor" id="activities"></div>
-	<h2>ACTIVITIES</h2>
-	
-	<p>Program (Co-)Chair:
-	<table>
-	<tr>
-	<td><strong>2017</strong></td>
-	<td><a href="http://ifm2017.di.unito.it/">iFM</a></td>
-	</tr>
-	</table>
-	</p>
-	
-	<p>Program Committees:
-	<table>
-	<tr>
-	<td><strong>2018</strong></td>
-	<td>
-	<a href="https://conf.researchr.org/committee/splash-2018/splash-2018-oopsla-committee">OOPSLA</a>,
-	<a href="http://popl18.sigplan.org/committee/popl-2018-papers-program-committee">POPL</a>
-	</td>
-	</tr>
-	<tr>
-	<td><strong>2017</strong></td>
-	<td>
-	<a href="http://cavconference.org/2017/organization/">CAV</a>,
-	<a href="https://www.react.uni-saarland.de/synt2017">SYNT</a>
-	</td>
-	</tr>
-	<tr>
-	<td><strong>2016</strong></td>
-	<td>
-	<a href="http://soict.hust.edu.vn/~aplas2016/">APLAS</a>,
-	<a href="http://2016.ecoop.org/track/FTfJP-2016">FTfJP</a>,
-	<a href="http://formal.epfl.ch/synt/2016/">SYNT</a>,
-	<a href="http://www.cs.toronto.edu/~chechik/vstte16/">VSTTE</a>,
-	<a href="http://tap2016.ist.tugraz.at/">TAP</a>,
-	<a href="http://en.ru.is/ifm">iFM</a>,
-	<a href="http://d3s.mff.cuni.cz/conferences/fesca/">FESCA</a>,
-	<a href="http://conf.researchr.org/track/POPL-2016/VMCAI-2016-papers">VMCAI</a>
-	</td>
-	</tr>
-	<tr>
-	<td><strong>2015</strong></td>
-	<td>
-	<a href="http://selab-innopolis.net/psi%2015.html">PSI</a>,
-	<a href="http://2015.ecoop.org/track/FTfJP-2015-papers">FTfJP</a>,
-	<a href="http://fesca.ipd.kit.edu/fesca2015">FESCA</a>
-	</td>
-	</tr>
-	<tr>
-	<td><strong>2014</strong></td>
-	<td>
-	<a href="http://rv2014.imag.fr/">RV</a>,
-	<a href="http://fesca.ipd.kit.edu/fesca2014">FESCA</a>.
-	</td>
-	</tr>
-	</table>
-	</p>
-	
-	<p>External Review Committees:
-	<table>
-	<tr>
-	<td><strong>2018</strong></td>
-	<td><a href="https://pldi18.sigplan.org/committee/pldi-2018-external-review-committee">PLDI</a></td>
-	</tr>
-	</table>
-	</p>
-	
-	<div class="credit">
-	photo by <a href="http://people.csail.mit.edu/dnj/">Daniel Jackson</a>
-	</div>
-	
-	</div>
-	</div>
-	</body>
-	</html>
-	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Daejun Park</title>
+  </head>
+  <body>
+    <div style="float:left;height:180px;margin:5px 20px 10px 0;">
+      <img src="daejunpark3.720x720.jpg" alt="Daejun Park" height="100%" />
+    </div>
+    <div style="float:left;height:180px;margin:0 0 30px 0;">
+      <div style="font-size:200%;font-weight:bold;">Daejun Park</div>
+      <div style="margin-top:20px;">
+        Ph.D. Student
+        &nbsp; [<a href="cv.pdf">CV</a>]
+   <!-- &nbsp; [<a href="bio.txt">Bio</a>] -->
+        &nbsp; [<a href="https://dblp.uni-trier.de/pers/hd/p/Park_0001:Daejun">DBLP</a>]
+        &nbsp; [<a href="https://scholar.google.com/citations?user=Zp4qcg0AAAAJ&hl=en">Google Scholar</a>]
+        <br/>
+        <a href="https://cs.illinois.edu">Department of Computer Science</a>
+        <br/>
+        <a href="http://illinois.edu">University of Illinois at Urbana-Champaign</a>
+      </div>
+      <div style="margin-top:20px;">
+        2107 Siebel Center for Computer Science <br/>
+        201 N. Goodwin Ave., Urbana, IL 61801 <br/>
+        Email: dpark69 (at) illinois (dot) edu
+      </div>
+    </div>
+
+    <div style="clear:left;">
+
+    <p>
+      <!--
+      I am a Ph.D. student
+      working with <a href="http://fsl.cs.illinois.edu/index.php/Grigore_Rosu">Prof. Grigore Rosu</a>
+      and <a href="http://madhu.cs.illinois.edu">Prof. Madhusudan Parthasarathy</a>.
+
+      I am interested in program verification.
+      -->
+      <!--
+      including invariant synthesis for heap reasoning,
+      verification of large systems such as OSes or browsers,
+      and web security.
+
+      Here is my [<a href="cv.pdf">CV</a>].
+      -->
+    </p>
+
+<!--
+    <h2>Education &amp; Professional Experience</h2>
+    <ul>
+      <li>Aug 2013 - Present, Ph.D. Student, <a href="http://fsl.cs.illinois.edu/index.php/Main_Page">Formal Systems Laboratory</a>, <a href="https://cs.illinois.edu">Department of Computer Science</a>, <a href="http://illinois.edu">University of Illinois at Urbana-Champaign</a></li>
+      <li>Jan 2012 - Jul 2013, Research Associate, <a href="http://rosaec.snu.ac.kr/">ROSAEC(Research On Software Analysis for Error-free Computing) Center</a>, <a href="http://en.snu.ac.kr/">Seoul National University</a></li>
+      <li>Sep 2008 - Dec 2011, Associate Research Engineer, <a href="http://en.fasoo.com/site/fasoo_eng/sourcecodeanalysis/sparrow.do">Program Analysis Division</a>, <a href="http://www.fasoo.com/en/index.asp?lang=en">Fasoo.com, Inc.</a></li>
+      <li>Mar 2006 - Aug 2008, M.S., <a href="http://ropas.snu.ac.kr/">Programming Research Laboratory</a>, <a href="http://cse.snu.ac.kr/en">School of Computer Science and Engineering</a>, <a href="http://en.snu.ac.kr/">Seoul National University</a></li>
+      <li>Mar 2001 - Feb 2006, B.S., <a href="http://cse.snu.ac.kr/en">School of Computer Science and Engineering</a>, <a href="http://en.snu.ac.kr/">Seoul National University</a></li>
+    </ul>
+-->
+
+    <h3>Selected Publications</h3>
+<!--
+    <h4>In progress:</h4>
+    <ul>
+    </ul>
+    <h4>Peer-reviewed:</h4>
+-->
+
+    <ul>
+      <li>
+        <b>Logistic Regression on Homomorphic Encrypted Data at Scale</b>.
+        <br/>
+        <em>with</em> Kyoohyung Han, Seungwan Hong, and Jung Hee Cheon.
+        <br/>
+        Proceedings of the Thirty-First AAAI Conference on Innovative Applications of Artificial Intelligence (IAAI'19). To appear.
+        <br/>
+        [<a href="iaai19.pdf">pdf</a>]
+        [<a href="https://eprint.iacr.org/2018/662.pdf">ePrint</a>]
+      </li>
+<!--
+      <li>
+        <b>A Language-Independent Approach to Smart Contract Verification</b>.
+        <em>(Invited Paper)</em>
+        <br/>
+        <em>with</em> Xiaohong Chen and Grigore Rosu.
+        <br/>
+        Proceedings of the 8th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation (ISoLA'18).
+      </li>
+-->
+      <li>
+        <b>A Formal Verification Tool for Ethereum VM Bytecode</b>.
+        <br/>
+        <em>with</em> Yi Zhang, Manasvi Saxena, Philip Daian, and Grigore Rosu.
+        <br/>
+        Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE'18 Tool).
+        <br/>
+        [<a href="kevm-verifier.pdf">pdf</a>]
+        [<a href="kevm-verifier-slides.pdf">slides</a>]
+        [<a href="https://github.com/runtimeverification/verified-smart-contracts/blob/master/README.md">verified smart contracts</a>]
+        [blog <a href="https://runtimeverification.com/blog/how-formal-verification-of-smart-contracts-works/">post 1</a> &
+              <a href="https://runtimeverification.com/blog/erc-20-verification/">post 2</a>]
+      </li>
+      <li>
+        <b>KEVM: A Complete Formal Semantics of the Ethereum Virtual Machine</b>.
+        <br/>
+        <em>with</em> Everett Hildenbrandt, Manasvi Saxena, Nishant Rodrigues, Xiaoran Zhu, Philip Daian, Dwight Guth, Brandon Moore, Yi Zhang, Andrei Stefanescu, and Grigore Rosu.
+        <br/>
+        Proceedings of the 2018 IEEE Computer Security Foundations Symposium (CSF'18).
+        <br/>
+        [<a href="kevm.pdf">pdf</a>]
+      </li>
+<!--
+      <li>
+        <b>Invariant Synthesis for Incomplete Verification Engines</b>.
+        <br/>
+        <em>with</em> Daniel Neider, Pranav Garg, P. Madhusudan, and Shambwaditya Saha.
+        <br/>
+        Proceedings of the 24th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS'18).
+        <br/>
+        [<a href="https://arxiv.org/pdf/1712.05581.pdf">pdf</a>]
+        [<a href="https://github.com/daejunpark/npi">artifact</a>]
+      </li>
+-->
+      <li>
+        <b>Semantics-Based Program Verifiers for All Languages</b>.
+        <br/>
+        <em>with</em> Andrei Stefanescu, Shijiao Yuwen, Yilong Li, and Grigore Rosu.
+        <!--
+        Andrei Stefanescu, <em>Daejun Park</em>, Shijiao Yuwen, Yilong Li, and Grigore Rosu.
+        -->
+        <br/>
+        Proceedings of the 2016 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA'16).
+        <br/>
+        <!--
+        <img src="trophy.png" alt="trophy" width="13" />
+        -->
+        <em><font color="red">Distinguished Paper Award</font></em>
+        <!--
+        &nbsp;
+        &nbsp;
+        <em><font color="red">Selected in Computing Reviews' Notable Books and Articles 2016.</font></em>
+        [<a href="http://www.computingreviews.com/recommend/bestof/2016NotableItems.pdf">link</a>]
+        -->
+        <br/>
+        [<a href="oopsla16-preprint.pdf">pdf</a>]
+        [<a href="oopsla16-slides.pdf">slides</a>]
+      </li>
+      <li>
+        <b>KJS: A Complete Formal Semantics of JavaScript</b>.
+        <br/>
+        <em>with</em> Andrei Stefanescu and Grigore Rosu.
+        <!--
+        <em>Daejun Park</em>, Andrei Stefanescu, and Grigore Rosu.
+        -->
+        <br/>
+        Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'15).
+        <br/>
+        [<a href="p346-park.pdf">pdf</a>]
+        <!--
+        [<a href="http://dl.acm.org/authorize?N07023">pdf</a> (via ACM Author-Izer)]
+        -->
+        [<a href="2015-06-16-park-stefanescu-rosu-PLDI.pdf">slides</a>]
+      </li>
+<!--
+      <li>
+        <b>Global Sparse Analysis Framework</b>.
+        <br/>
+        <em>with</em> Hakjoo Oh, Kihong Heo, Wonchan Lee, Woosuk Lee, Jeehoon Kang, and Kwangkeun Yi.
+        <!-
+        Hakjoo Oh, Kihong Heo, Wonchan Lee, Woosuk Lee, <em>Daejun Park</em>, Jeehoon Kang, and Kwangkeun Yi.
+        ->
+        <br/>
+        ACM Transactions on Programming Languages and Systems (TOPLAS), 2014. <!-Volume 36, Issue 3, September 2014->
+        <br/>
+        [<a href="a8-oh.pdf">pdf</a>]
+        <!-
+        [<a href="http://dl.acm.org/authorize?N07022">pdf</a> (via ACM Author-Izer)]
+        ->
+      </li>
+-->
+    </ul>
+
+<!--
+    <h4>Technical reports:</h4>
+    <ul>
+      <li>
+        <b>Encrypted Execution</b>.
+        <br/>
+        <em>Daejun Park</em>, Jeehoon Kang, Kihong Heo, Sungkeun Cho, Yongho Yoon, and Kwangkeun Yi.
+        <br/>
+        ROSAEC Technical Report ROSAEC-2014-001, 2012.
+        2012.
+        <br/>
+        [<a href="encrypted.pdf">pdf</a>]
+      </li>
+      <li>
+        <b>Unstaging Translation of Cross-Stage Persistent Multi-Staged Programs</b>.
+        <br/>
+        Joonwon Choi, Jeehoon Kang, <em>Daejun Park</em>, and Kwangkeun Yi.
+        <br/>
+        ROSAEC Technical Report ROSAEC-2012-015, 2012.
+        2012.
+        <br/>
+        [<a href="unstaging.pdf">pdf</a>]
+        [<a href="ROSAEC-2012-015.pdf">proof</a>]
+      </li>
+    </ul>
+-->
+
+<!--
+    <h2>Awards and Honors</h2>
+    <ul>
+      <li><b>Korean Government Scholarship</b>, 2013</li>
+      <li><b>Outstanding Employee Award</b>, Fasoo.com, Inc., 2010 - 2011</li>
+      <li><b>Honors Scholarship</b>, Seoul National University, 2003 - 2004</li>
+      <li><b>Bronze Medal of National High School Mathematics Competition</b>, 2000</li>
+    </ul>
+-->
+
+    </div>
+
+  </body>
+
+<div style="margin-top:40px;">
+<!-- https://www.revolvermaps.com/?target=setup2d -->
+<!-- https://www.revolvermaps.com/?target=enlarge&i=2zxaddc9nr5 -->
+<a href="https://www.revolvermaps.com/?target=enlarge&amp;i=2zxaddc9nr5">
+<img src="//rc.revolvermaps.com/h/m/a/0/ff0000/128/0/2zxaddc9nr5.png" width="192" height="96" alt="Map" style="border:0;display:none;">
+</a>
+</div>
+
+</html>
