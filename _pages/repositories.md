@@ -1,12 +1,30 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: service
+description: Services to the scientific community.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
+<h3>Programm Committees</h3>
+
+- 22nd USENIX Symposium on Networked Systems Design and Implementation ([NSDI 2025](https://www.usenix.org/conference/nsdi25))
+- 25th International Conference on Formal Engineering Methods ([ICFEM 2024](https://icfem2024.info/))
+- 24th International Conference on Formal Engineering Methods ([ICFEM 2023](https://formal-analysis.com/icfem/2023/))
+
+<h3>Reviewing</h3>
+
+- Journals: Journal of Logical and Algebraic Methods in Programming ([JLAMP](https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming)), Science of Computer Programming ([SCP](https://www.sciencedirect.com/journal/science-of-computer-programming))
+
+
+- Conferences: FM, ICFEM, FASE, TASE
+
+<h3>Others</h3>
+
+- Dagstuhl Seminars: Ensuring the Reliability and Robustness of Database Management Systems [21442](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/21442) (participant)
+
+<!--
 {% if site.data.repositories.github_users %}
 
 ## GitHub users
@@ -45,3 +63,4 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+-->
