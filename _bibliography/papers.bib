@@ -1,115 +1,1006 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{plume,
+    abbr={OOPSLA'24},
+    selected={true},
+    
+	author    = {Si Liu and
+	Long Gu and 
+	Hengfeng Wei and
+	David Basin},
+	title     = {Plume: Efficient and Complete Black-box Checking of Weak Isolation Levels},
+	journal   = {Proc. {ACM} Program. Lang.},
+	number    = {{OOPSLA2}},
+	year      = {2024},
+	volume    = {8},
+	abstract = {Modern databases embrace weak isolation levels to cater for highly available transactions. However, weak isolation bugs have recently manifested in many production databases. This raises the concern of whether database implementations actually deliver their promised isolation guarantees in practice. In this paper we present Plume, the first efficient, complete, black-box checker for weak isolation levels. Plume builds on modular, fine-grained transactional anomalous patterns, with which we establish sound and complete characterizations of representative weak isolation levels, including read committed, read atomicity, and transactional causal consistency. Plume leverages a novel combination of two techniques, vectors and tree clocks, to accelerate isolation checking. Our extensive assessment shows that Plume can reproduce all known violations in a large collection of anomalous database execution histories, detect new isolation bugs in three production databases along with informative counterexamples, find more weak isolation anomalies than the state-of-the-art checkers, and efficiently validate isolation guarantees under a wide variety of workloads.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{noc-noc,
+    abbr={SIGMOD'24},
+    selected={true},
+
+	author = {Liu, Si and Multazzu, Luca and Wei, Hengfeng and Basin, David A.},
+	title = {NOC-NOC: Towards Performance-optimal Distributed Transactions},
+	year = {2024},
+	issue_date = {February 2024},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {2},
+	number = {1},
+	url = {https://doi.org/10.1145/3639264},
+	doi = {10.1145/3639264},
+	abstract = {Substantial research efforts have been devoted to studying the performance optimality problem for distributed database transactions. However, they focus just on optimizing transactional reads, and thus overlook crucial factors, such as the efficiency of writes, which also impact the overall system performance. Motivated by a recent study on Twitter's workloads showing the prominence of write-heavy workloads in practice, we make a substantial step towards performance-optimal distributed transactions by also aiming to optimize writes, a fundamentally new dimension to this problem. We propose a new design objective and establish impossibility results with respect to the achievable isolation levels. Guided by these results, we present two new transaction algorithms with different isolation guarantees that fulfill this design objective. Our evaluation demonstrates that these algorithms outperform the state of the art.},
+	journal = {Proc. ACM Manag. Data},
+	articleno = {9},
+	numpages = {25},
+	keywords = {concurrency control, impossibility results, isolation levels}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{isovista,
+    abbr={VLDB'24},
+    
+	author    = {Long Gu† and
+	Si Liu and
+	Tiancheng Xing and
+	Hengfeng Wei and
+	Yuxing Chen and
+	David Basin},
+	title     = {IsoVista: Black-box Checking Database Isolation Guarantees},
+	journal   = {Proc. {VLDB} Endow.},
+	year      = {2024},
+	volume = {17},
+	number = {12},
+
+    annotation={† student I supervised}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings {298012,
+	 abbr={USENIX SEC'24},
+	    
+	author = {Huayi Duan and Marco Bearzi and Jodok Vieli and David Basin and Adrian Perrig and Si Liu and Bernhard Tellenbach},
+	title = {{CAMP}: Compositional Amplification Attacks against {DNS}},
+	booktitle = {33rd USENIX Security Symposium (USENIX Security 24)},
+	year = {2024},
+	isbn = {978-1-939133-44-1},
+	address = {Philadelphia, PA},
+	pages = {5769--5786},
+	url = {https://www.usenix.org/conference/usenixsecurity24/presentation/duan},
+	publisher = {USENIX Association}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{DBLP:conf/cav/ZhiWLOZ24,
+	abbr={CAV'24},
+	  
+	author       = {Dapeng Zhi and
+	Peixin Wang and
+	Si Liu and
+	Luke Ong and
+	Min Zhang},
+	editor       = {Arie Gurfinkel and
+	Vijay Ganesh},
+	title        = {Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled
+	Systems},
+	booktitle    = {Computer Aided Verification - 36th International Conference, {CAV}
+	2024, Montreal, QC, Canada, July 24-27, 2024, Proceedings, Part {II}},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {14682},
+	pages        = {401--426},
+	publisher    = {Springer},
+	year         = {2024},
+	url          = {https://doi.org/10.1007/978-3-031-65630-9\_20},
+	doi          = {10.1007/978-3-031-65630-9\_20},
+	timestamp    = {Fri, 02 Aug 2024 12:00:01 +0200},
+	biburl       = {https://dblp.org/rec/conf/cav/ZhiWLOZ24.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{10.1007/978-3-031-50521-8_4,
+	abbr={VMCAI'24},
+		
+	author = {Tian†, Jiaxu and Zhi, Dapeng and Liu, Si and Wang, Peixin and Katz, Guy and Zhang, Min},
+	title = {Taming Reachability Analysis of&nbsp;DNN-Controlled Systems via&nbsp;Abstraction-Based Training},
+	year = {2024},
+	isbn = {978-3-031-50520-1},
+	publisher = {Springer-Verlag},
+	address = {Berlin, Heidelberg},
+	url = {https://doi.org/10.1007/978-3-031-50521-8_4},
+	doi = {10.1007/978-3-031-50521-8_4},
+	abstract = {The intrinsic complexity of deep neural networks (DNNs) makes it challenging to verify not only the networks themselves but also the hosting DNN-controlled systems. Reachability analysis of these systems faces the same challenge. Existing approaches rely on over-approximating DNNs using simpler polynomial models. However, they suffer from low efficiency and large overestimation, and are restricted to specific types of DNNs. This paper presents a novel abstraction-based approach to bypass the crux of over-approximating DNNs in reachability analysis. Specifically, we extend conventional DNNs by inserting an additional abstraction layer, which abstracts a real number to an interval for training. The inserted abstraction layer ensures that the values represented by an interval are indistinguishable to the network for both training and decision-making. Leveraging this, we devise the first black-box reachability analysis approach for DNN-controlled systems, where trained DNNs are only queried as black-box oracles for the actions on abstract states. Our approach is sound, tight, efficient, and agnostic to any DNN type and size. The experimental results on a wide range of benchmarks show that the DNNs trained by using our approach exhibit comparable performance, while the reachability analysis of the corresponding systems becomes more amenable with significant tightness and efficiency improvement over the state-of-the-art white-box approaches.},
+	booktitle = {Verification, Model Checking, and Abstract Interpretation: 25th International Conference, VMCAI 2024, London, United Kingdom, January 15–16, 2024, Proceedings, Part II},
+	pages = {73–97},
+	numpages = {25},
+	location = {London, United Kingdom},
+	
+    annotation={† student I supervised}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@article{DBLP:journals/pvldb/HuangLCWBLP23,
+	abbr={VLDB'23},
+	selected={true},
+	
+	author       = {Kaile Huang and
+	Si Liu* and
+	Zhenge Chen and
+	Hengfeng Wei and
+	David A. Basin and
+	Haixiang Li and
+	Anqun Pan},
+	title        = {Efficient Black-box Checking of Snapshot Isolation in Databases},
+	journal      = {Proc. {VLDB} Endow.},
+	volume       = {16},
+	number       = {6},
+	pages        = {1264--1276},
+	year         = {2023},
+	url          = {https://www.vldb.org/pvldb/vol16/p1264-wei.pdf},
+	doi          = {10.14778/3583140.3583145},
+	timestamp    = {Tue, 07 May 2024 20:18:40 +0200},
+	biburl       = {https://dblp.org/rec/journals/pvldb/HuangLCWBLP23.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org},
+	
+	annotation={* I contributed equally to this work as a co-first author}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings {288568,
+	abbr={OSDI'23},
+	selected={true},
+	
+	author = {Zu-Ming Jiang and Si Liu and Manuel Rigger and Zhendong Su},
+	title = {Detecting Transactional Bugs in Database Engines via {Graph-Based} Oracle Construction},
+	booktitle = {17th USENIX Symposium on Operating Systems Design and Implementation (OSDI 23)},
+	year = {2023},
+	isbn = {978-1-939133-34-2},
+	address = {Boston, MA},
+	pages = {397--417},
+	url = {https://www.usenix.org/conference/osdi23/presentation/jiang},
+	publisher = {USENIX Association},
+	month = jul
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{10.1145/3603269.3604870,
+    abbr={SIGCOMM'23},
+    selected={true},
+
+	author = {Liu, Si and Duan, Huayi and Heimes, Lukas and Bearzi, Marco and Vieli, Jodok and Basin, David and Perrig, Adrian},
+	title = {A Formal Framework for End-to-End DNS Resolution},
+	year = {2023},
+	isbn = {9798400702365},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3603269.3604870},
+	doi = {10.1145/3603269.3604870},
+	abstract = {Despite the central importance of DNS, numerous attacks and vulnerabilities are regularly discovered. The root of the problem is the ambiguity and tremendous complexity of DNS protocol specifications, amid a rapidly evolving Internet infrastructure. To counteract the vicious break-and-fix cycle for improving DNS infrastructure, we instigate a foundational approach: we construct the first formal semantics of end-to-end name resolution, a collection of components for the formal analyses of both qualitative and quantitative properties, and an automated tool for discovering DoS attacks. Our formal framework represents an important step towards a substantially more secure and reliable DNS infrastructure.},
+	booktitle = {Proceedings of the ACM SIGCOMM 2023 Conference},
+	pages = {932–949},
+	numpages = {18},
+	keywords = {DNS, formal semantics, maude, statistical model checking, DoS},
+	location = {New York, NY, USA},
+	series = {ACM SIGCOMM '23}
+}
+
+
+@inproceedings{DBLP:conf/nips/TianZ0WC023,
+    abbr={NeurIPS'23},
+    
+	author       = {Jiaxu Tian† and
+	Dapeng Zhi and
+	Si Liu and
+	Peixin Wang and
+	Cheng Chen and
+	Min Zhang},
+	editor       = {Alice Oh and
+	Tristan Naumann and
+	Amir Globerson and
+	Kate Saenko and
+	Moritz Hardt and
+	Sergey Levine},
+	title        = {Boosting Verification of Deep Reinforcement Learning via Piece-Wise
+	Linear Decision Neural Networks},
+	booktitle    = {Advances in Neural Information Processing Systems 36: Annual Conference
+	on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans,
+	LA, USA, December 10 - 16, 2023},
+	year         = {2023},
+	url          = {http://papers.nips.cc/paper\_files/paper/2023/hash/1f96b24df4b06f5d68389845a9a13ed9-Abstract-Conference.html},
+	timestamp    = {Fri, 01 Mar 2024 16:26:19 +0100},
+	biburl       = {https://dblp.org/rec/conf/nips/TianZ0WC023.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org},
+	
+    annotation={† student I supervised}
+}
+
+@inproceedings {286475,
+    abbr={NSDI'23},
+    
+	author = {Huayi Duan and Rub{\'e}n Fischer and Jie Lou and Si Liu and David Basin and Adrian Perrig},
+	title = {{RHINE}: Robust and High-performance Internet Naming with {E2E} Authenticity},
+	booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+	year = {2023},
+	isbn = {978-1-939133-33-5},
+	address = {Boston, MA},
+	pages = {531--553},
+	url = {https://www.usenix.org/conference/nsdi23/presentation/duan},
+	publisher = {USENIX Association},
+	month = apr
+}
+
+@inproceedings{10.1145/3597926.3598127,
+    abbr={ISSTA'23},
+    
+	author = {Xue†, Zhiyi and Liu, Si and Zhang, Zhaodi and Wu, Yiting and Zhang, Min},
+	title = {A Tale of Two Approximations: Tightening Over-Approximation for DNN Robustness Verification via Under-Approximation},
+	year = {2023},
+	isbn = {9798400702211},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3597926.3598127},
+	doi = {10.1145/3597926.3598127},
+	abstract = {The robustness of deep neural networks (DNNs) is crucial to the hosting system’s reliability and security. Formal verification has been demonstrated to be effective in providing provable robustness guarantees. To improve its scalability, over-approximating the non-linear activation functions in DNNs by linear constraints has been widely adopted, which transforms the verification problem into an efficiently solvable linear programming problem. Many efforts have been dedicated to defining the so-called tightest approximations to reduce overestimation imposed by over-approximation. In this paper, we study existing approaches and identify a dominant factor in defining tight approximation, namely the approximation domain of the activation function. We find out that tight approximations defined on approximation domains may not be as tight as the ones on their actual domains, yet existing approaches all rely only on approximation domains. Based on this observation, we propose a novel dual-approximation approach to tighten overapproximations, leveraging an activation function’s underestimated domain to define tight approximation bounds. We implement our approach with two complementary algorithms based respectively on Monte Carlo simulation and gradient descent into a tool called DualApp. We assess it on a comprehensive benchmark of DNNs with different architectures. Our experimental results show that DualApp significantly outperforms the state-of-the-art approaches with 100\% − 1000\% improvement on the verified robustness ratio and 10.64\% on average (up to 66.53\%) on the certified lower bound.},
+	booktitle = {Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis},
+	pages = {1182–1194},
+	numpages = {13},
+	keywords = {Deep neural network, over-approximation, robustness verification},
+	location = {Seattle, WA, USA},
+	series = {ISSTA 2023},
+	
+    annotation={† student I supervised}
+}
+
+@inproceedings{DBLP:conf/cvpr/ZhangXC0ZL023,
+    abbr={CVPR'23},
+    	
+	author       = {Zhaodi Zhang† and
+	Zhiyi Xue and
+	Yang Chen and
+	Si Liu and
+	Yueling Zhang and
+	Jing Liu and
+	Min Zhang},
+	title        = {Boosting Verified Training for Robust Image Classifications via Abstraction},
+	booktitle    = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,
+	{CVPR} 2023, Vancouver, BC, Canada, June 17-24, 2023},
+	pages        = {16251--16260},
+	publisher    = {{IEEE}},
+	year         = {2023},
+	url          = {https://doi.org/10.1109/CVPR52729.2023.01559},
+	doi          = {10.1109/CVPR52729.2023.01559},
+	timestamp    = {Tue, 07 May 2024 20:02:32 +0200},
+	biburl       = {https://dblp.org/rec/conf/cvpr/ZhangXC0ZL023.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{10.1145/3563299,
+    abbr={OOPSLA'22},
+    selected={true},
+	
+	author = {Liu, Si and Meseguer, Jose and \"{O}lveczky, Peter Csaba and Zhang, Min and Basin, David},
+	title = {Bridging the semantic gap between qualitative and quantitative models of distributed systems},
+	year = {2022},
+	issue_date = {October 2022},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {6},
+	number = {OOPSLA2},
+	url = {https://doi.org/10.1145/3563299},
+	doi = {10.1145/3563299},
+	abstract = {Today’s distributed systems must satisfy both qualitative and quantitative properties. These properties are analyzed using very different formal frameworks: expressive untimed and non-probabilistic frameworks, such as TLA+ and Hoare/separation logics, for qualitative properties; and timed/probabilistic-automaton-based ones, such as Uppaal and Prism, for quantitative ones. This requires developing two quite different models of the same system, without guarantees of semantic consistency between them. Furthermore, it is very hard or impossible to represent intrinsic features of distributed object systems—such as unbounded data structures, dynamic object creation, and an unbounded number of messages—using finite automata. In this paper we bridge this semantic gap, overcome the problem of manually having to develop two different models of a system, and solve the representation problem by: (i) defining a transformation from a very general class of distributed systems (a generalization of Agha’s actor model) that maps an untimed non-probabilistic distributed system model suitable for qualitative analysis to a probabilistic timed model suitable for quantitative analysis; and (ii) proving the two models semantically consistent. We formalize our models in rewriting logic, and can therefore use the Maude tool to analyze qualitative properties, and statistical model checking with PVeStA to analyze quantitative properties. We have automated this transformation and integrated it, together with the PVeStA statistical model checker, into the Actors2PMaude tool. We illustrate the expressiveness of our framework and our tool’s ease of use by automatically transforming untimed, qualitative models of numerous distributed system designs—including an industrial data store and a state-of-the-art transaction system—into quantitative models to analyze and compare the performance of different designs.},
+	journal = {Proc. ACM Program. Lang.},
+	month = {oct},
+	articleno = {136},
+	numpages = {30},
+	keywords = {Maude, actors, distributed systems, formal model transformation, rewriting logic, statistical model checking}
+}
+
+@article{10.1145/3494517,
+    abbr={TOSEM'22},
+    selected={true},
+
+	author = {Liu, Si},
+	title = {All in One: Design, Verification, and Implementation of SNOW-optimal Read Atomic Transactions},
+	year = {2022},
+	issue_date = {July 2022},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {31},
+	number = {3},
+	issn = {1049-331X},
+	url = {https://doi.org/10.1145/3494517},
+	doi = {10.1145/3494517},
+	abstract = {Distributed read atomic transactions are important building blocks of modern cloud databases that magnificently bridge the gap between data availability and strong data consistency. The performance of their transactional reads is particularly critical to the overall system performance, as many real-world database workloads are dominated by reads. Following the SNOW design principle for optimal reads, we develop LORA, a novel SNOW-optimal algorithm for distributed read atomic transactions. LORA completes its reads in exactly one round trip, even in the presence of conflicting writes, without imposing additional overhead to the communication, and it outperforms the state-of-the-art read atomic algorithms.To guide LORA’s development, we present a rewriting-logic-based framework and toolkit for design, verification, implementation, and evaluation of distributed databases. Within the framework, we formalize LORA and mathematically prove its data consistency guarantees. We also apply automatic model checking and statistical verification to validate our proofs and to estimate LORA’s performance. We additionally generate from the formal model a correct-by-construction distributed implementation for testing and performance evaluation under realistic deployments. Our design-level and implementation-based experimental results are consistent, which together demonstrate LORA’s promising data consistency and performance achievement.},
+	journal = {ACM Trans. Softw. Eng. Methodol.},
+	month = {mar},
+	articleno = {43},
+	numpages = {44},
+	keywords = {the SNOW theorem, data consistency, statistical verification, Model checking}
+}
+
+
+@INPROCEEDINGS{9919646,
+	abbr={CSF'22},
+
+        	    
+	author={Weghorn, Thilo and Liu*, Si and Sprenger, Christoph and Perrig, Adrian and Basin, David},
+	booktitle={2022 IEEE 35th Computer Security Foundations Symposium (CSF)}, 
+	title={N-Tube: Formally Verified Secure Bandwidth Reservation in Path-Aware Internet Architectures}, 
+	year={2022},
+	volume={},
+	number={},
+	pages={147-162},
+	keywords={Resistance;Scalability;Prototypes;Bandwidth;Quality of service;Model checking;Network architecture;path aware internet architecture;secure bandwidth allocation;statistical model checking;invariants},
+	doi={10.1109/CSF54842.2022.9919646},
+	
+    annotation={* I contributed equally to this work as a co-first author}
+	}
+
+
+@inproceedings{10.1145/3551349.3556907,
+	abbr={ASE'22},
+	
+	author = {Zhang† , Zhaodi and Wu, Yiting and Liu, Si and Liu, Jing and Zhang, Min},
+	title = {Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks},
+	year = {2022},
+	isbn = {9781450394758},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3551349.3556907},
+	doi = {10.1145/3551349.3556907},
+	abstract = {The robustness of deep neural networks is crucial to modern AI-enabled systems and should be formally verified. Sigmoid-like neural networks have been adopted in a wide range of applications. Due to their non-linearity, Sigmoid-like activation functions are usually over-approximated for efficient verification, which inevitably introduces imprecision. Considerable efforts have been devoted to finding the so-called tighter approximations to obtain more precise verification results. However, existing tightness definitions are heuristic and lack theoretical foundations. We conduct a thorough empirical analysis of existing neuron-wise characterizations of tightness and reveal that they are superior only on specific neural networks. We then introduce the notion of network-wise tightness as a unified tightness definition and show that computing network-wise tightness is a complex non-convex optimization problem. We bypass the complexity from different perspectives via two efficient, provably tightest approximations. The results demonstrate the promising performance achievement of our approaches over state of the art: (i) achieving up to 251.28\% improvement to certified lower robustness bounds; and (ii) exhibiting notably more precise verification results on convolutional networks.},
+	booktitle = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+	articleno = {80},
+	numpages = {13},
+	location = {Rochester, MI, USA},
+	series = {ASE '22},
+
+    annotation={† student I supervised}
+}
+
+
+@INBOOK{scion-1,
+	abbr={Book Chapter},	
+	
+	author={David Basin and Tobias Klenze and  Si Liu and Christoph Sprenger},
+	booktitle={The Complete Guide to SCION:
+	From Design Principles to Formal Verification}, 
+	title={Design-Level Verification}, 
+	year={2022},
+	volume={},
+	number={},
+	pages={}
+}
+
+@INBOOK{scion-2,
+	abbr={Book Chapter},	
+	
+	author={Giacomo Giuliari and Markus Legner and  Si Liu and  Adrian Perrig and Thilo Weghorn and Marc Wyss},
+	booktitle={The Complete Guide to SCION:
+	From Design Principles to Formal Verification}, 
+	title={Extensions for the Data Plane}, 
+	year={2022},
+	volume={},
+	number={},
+	pages={}
+}
+
+
+
+@INPROCEEDINGS{9546747,
+	abbr={TASE'21},
+	
+	author={Liang†, Lei and Liu, Si},
+	booktitle={2021 International Symposium on Theoretical Aspects of Software Engineering (TASE)}, 
+	title={Exploring Design Alternatives for Replicated RAMP Transactions Using Maude}, 
+	year={2021},
+	volume={},
+	number={},
+	pages={111-118},
+	keywords={Measurement;Analytical models;Transforms;Model checking;Predictive models;Probabilistic logic;Data models},
+	doi={10.1109/TASE52547.2021.00026},
+	    
+	annotation={† student I supervised}
+}
+
+
+@inproceedings{DBLP:conf/nfm/LiuSMO020,
+	abbr={NFM'20},
+	
+	author       = {Si Liu and
+	Atul Sandur and
+	Jos{\'{e}} Meseguer and
+	Peter Csaba {\"{O}}lveczky and
+	Qi Wang},
+	editor       = {Ritchie Lee and
+	Susmit Jha and
+	Anastasia Mavridou},
+	title        = {Generating Correct-by-Construction Distributed Implementations from
+	Formal Maude Designs},
+	booktitle    = {{NASA} Formal Methods - 12th International Symposium, {NFM} 2020,
+	Moffett Field, CA, USA, May 11-15, 2020, Proceedings},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {12229},
+	pages        = {22--40},
+	publisher    = {Springer},
+	year         = {2020},
+	url          = {https://doi.org/10.1007/978-3-030-55754-6\_2},
+	doi          = {10.1007/978-3-030-55754-6\_2},
+	timestamp    = {Wed, 20 Sep 2023 08:58:10 +0200},
+	biburl       = {https://dblp.org/rec/conf/nfm/LiuSMO020.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/tacas/LiuOZWM19,
+	abbr={TACAS'19},
+		
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Min Zhang and
+	Qi Wang and
+	Jos{\'{e}} Meseguer},
+	editor       = {Tom{\'{a}}s Vojnar and
+	Lijun Zhang},
+	title        = {Automatic Analysis of Consistency Properties of Distributed Transaction
+	Systems in Maude},
+	booktitle    = {Tools and Algorithms for the Construction and Analysis of Systems
+	- 25th International Conference, {TACAS} 2019, Held as Part of the
+	European Joint Conferences on Theory and Practice of Software, {ETAPS}
+	2019, Prague, Czech Republic, April 6-11, 2019, Proceedings, Part
+	{II}},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {11428},
+	pages        = {40--57},
+	publisher    = {Springer},
+	year         = {2019},
+	url          = {https://doi.org/10.1007/978-3-030-17465-1\_3},
+	doi          = {10.1007/978-3-030-17465-1\_3},
+	timestamp    = {Wed, 20 Sep 2023 08:58:10 +0200},
+	biburl       = {https://dblp.org/rec/conf/tacas/LiuOZWM19.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{DBLP:conf/ccs/WangDYL0G19,
+	abbr={CCS'19},	
+	
+	author       = {Qi Wang and
+	Pubali Datta and
+	Wei Yang and
+	Si Liu and
+	Adam Bates and
+	Carl A. Gunter},
+	editor       = {Lorenzo Cavallaro and
+	Johannes Kinder and
+	XiaoFeng Wang and
+	Jonathan Katz},
+	title        = {Charting the Attack Surface of Trigger-Action IoT Platforms},
+	booktitle    = {Proceedings of the 2019 {ACM} {SIGSAC} Conference on Computer and
+	Communications Security, {CCS} 2019, London, UK, November 11-15, 2019},
+	pages        = {1439--1453},
+	publisher    = {{ACM}},
+	year         = {2019},
+	url          = {https://doi.org/10.1145/3319535.3345662},
+	doi          = {10.1145/3319535.3345662},
+	timestamp    = {Tue, 07 May 2024 20:04:53 +0200},
+	biburl       = {https://dblp.org/rec/conf/ccs/WangDYL0G19.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{DBLP:journals/fac/LiuOWGM19,
+	abbr={FAoC'19},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Qi Wang and
+	Indranil Gupta and
+	Jos{\'{e}} Meseguer},
+	title        = {Read atomic transactions with prevention of lost updates: {ROLA} and
+	its formal analysis},
+	journal      = {Formal Aspects Comput.},
+	volume       = {31},
+	number       = {5},
+	pages        = {503--540},
+	year         = {2019},
+	url          = {https://doi.org/10.1007/s00165-019-00489-w},
+	doi          = {10.1007/S00165-019-00489-W},
+	timestamp    = {Tue, 07 May 2024 20:27:21 +0200},
+	biburl       = {https://dblp.org/rec/journals/fac/LiuOWGM19.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@phdthesis{DBLP:phd/us/Liu19e,
+	abbr={PhD Thesis},	
+		
+	author       = {Si Liu},
+	title        = {Design, verification and automatic implementation of correct-by-construction
+	distributed transaction systems in Maude},
+	school       = {University of Illinois Urbana-Champaign, {USA}},
+	year         = {2019},
+	url          = {https://hdl.handle.net/2142/104881},
+	timestamp    = {Tue, 07 May 2024 20:28:17 +0200},
+	biburl       = {https://dblp.org/rec/phd/us/Liu19e.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/fase/LiuOSWGM18,
+	abbr={FASE'18},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Keshav Santhanam and
+	Qi Wang and
+	Indranil Gupta and
+	Jos{\'{e}} Meseguer},
+	editor       = {Alessandra Russo and
+	Andy Sch{\"{u}}rr},
+	title        = {{ROLA:} {A} New Distributed Transaction Protocol and Its Formal Analysis},
+	booktitle    = {Fundamental Approaches to Software Engineering, 21st International
+	Conference, {FASE} 2018, Held as Part of the European Joint Conferences
+	on Theory and Practice of Software, {ETAPS} 2018, Thessaloniki, Greece,
+	April 14-20, 2018, Proceedings},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {10802},
+	pages        = {77--93},
+	publisher    = {Springer},
+	year         = {2018},
+	url          = {https://doi.org/10.1007/978-3-319-89363-1\_5},
+	doi          = {10.1007/978-3-319-89363-1\_5},
+	timestamp    = {Wed, 20 Sep 2023 08:58:09 +0200},
+	biburl       = {https://dblp.org/rec/conf/fase/LiuOSWGM18.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wrla/LiuOWM18,
+	abbr={WRLA'18},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Qi Wang and
+	Jos{\'{e}} Meseguer},
+	editor       = {Vlad Rusu},
+	title        = {Formal Modeling and Analysis of the Walter Transactional Data Store},
+	booktitle    = {Rewriting Logic and Its Applications - 12th International Workshop,
+	{WRLA} 2018, Held as a Satellite Event of ETAPS, Thessaloniki, Greece,
+	June 14-15, 2018, Proceedings},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {11152},
+	pages        = {136--152},
+	publisher    = {Springer},
+	year         = {2018},
+	url          = {https://doi.org/10.1007/978-3-319-99840-4\_8},
+	doi          = {10.1007/978-3-319-99840-4\_8},
+	timestamp    = {Wed, 20 Sep 2023 08:58:10 +0200},
+	biburl       = {https://dblp.org/rec/conf/wrla/LiuOWM18.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@INBOOK{8591903,
+	abbr={Book Chapter},	
+	
+	author={Rakesh Bobba and Jon Grov and  Indranil Gupta and  Si Liu and  José Meseguer and  Peter Csaba Ölveczky and  Stephen Skeirik},
+	booktitle={Assured Cloud Computing}, 
+	title={Survivability: Design, Formal Modeling, and Validation of Cloud Storage Systems Using Maude}, 
+	year={2018},
+	volume={},
+	number={},
+	pages={10-48},
+	keywords={Cloud computing;Object oriented modeling;Tools;Model checking;Mathematical model;Analytical models},
+	doi={10.1002/9781119428497.ch2}
+}
+
+
+@article{DBLP:journals/lites/LiuGRNGM17,
+	abbr={LITES'17},	
+	
+	author       = {Si Liu and
+	Jatin Ganhotra and
+	Muntasir Raihan Rahman and
+	Son Nguyen and
+	Indranil Gupta and
+	Jos{\'{e}} Meseguer},
+	title        = {Quantitative Analysis of Consistency in NoSQL Key-Value Stores},
+	journal      = {Leibniz Trans. Embed. Syst.},
+	volume       = {4},
+	number       = {1},
+	pages        = {03:1--03:26},
+	year         = {2017},
+	url          = {https://doi.org/10.4230/LITES-v004-i001-a003},
+	doi          = {10.4230/LITES-V004-I001-A003},
+	timestamp    = {Tue, 07 May 2024 20:28:06 +0200},
+	biburl       = {https://dblp.org/rec/journals/lites/LiuGRNGM17.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icfem/LiuOGGM17,
+	abbr={ICFEM'17},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Jatin Ganhotra and
+	Indranil Gupta and
+	Jos{\'{e}} Meseguer},
+	editor       = {Zhenhua Duan and
+	Luke Ong},
+	title        = {Exploring Design Alternatives for {RAMP} Transactions Through Statistical
+	Model Checking},
+	booktitle    = {Formal Methods and Software Engineering - 19th International Conference
+	on Formal Engineering Methods, {ICFEM} 2017, Xi'an, China, November
+	13-17, 2017, Proceedings},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {10610},
+	pages        = {298--314},
+	publisher    = {Springer},
+	year         = {2017},
+	url          = {https://doi.org/10.1007/978-3-319-68690-5\_18},
+	doi          = {10.1007/978-3-319-68690-5\_18},
+	timestamp    = {Wed, 20 Sep 2023 08:58:09 +0200},
+	biburl       = {https://dblp.org/rec/conf/icfem/LiuOGGM17.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{DBLP:journals/jlp/LiuOM16,
+	abbr={JLAMP'16},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Jos{\'{e}} Meseguer},
+	title        = {Modeling and analyzing mobile ad hoc networks in Real-Time Maude},
+	journal      = {J. Log. Algebraic Methods Program.},
+	volume       = {85},
+	number       = {1},
+	pages        = {34--66},
+	year         = {2016},
+	url          = {https://doi.org/10.1016/j.jlamp.2015.05.002},
+	doi          = {10.1016/J.JLAMP.2015.05.002},
+	timestamp    = {Tue, 07 May 2024 20:27:18 +0200},
+	biburl       = {https://dblp.org/rec/journals/jlp/LiuOM16.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{DBLP:conf/sac/LiuORGGM16,
+	abbr={SAC'16},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Muntasir Raihan Rahman and
+	Jatin Ganhotra and
+	Indranil Gupta and
+	Jos{\'{e}} Meseguer},
+	editor       = {Sascha Ossowski},
+	title        = {Formal modeling and analysis of {RAMP} transaction systems},
+	booktitle    = {Proceedings of the 31st Annual {ACM} Symposium on Applied Computing,
+	Pisa, Italy, April 4-8, 2016},
+	pages        = {1700--1707},
+	publisher    = {{ACM}},
+	year         = {2016},
+	url          = {https://doi.org/10.1145/2851613.2851838},
+	doi          = {10.1145/2851613.2851838},
+	timestamp    = {Tue, 07 May 2024 20:04:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/sac/LiuORGGM16.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{DBLP:conf/birthday/LiuOM15,
+	abbr={SSS'15},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Jos{\'{e}} Meseguer},
+	editor       = {Rocco De Nicola and
+	Rolf Hennicker},
+	title        = {Formal Analysis of Leader Election in MANETs Using Real-Time Maude},
+	booktitle    = {Software, Services, and Systems - Essays Dedicated to Martin Wirsing
+	on the Occasion of His Retirement from the Chair of Programming and
+	Software Engineering},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {8950},
+	pages        = {231--252},
+	publisher    = {Springer},
+	year         = {2015},
+	url          = {https://doi.org/10.1007/978-3-319-15545-6\_16},
+	doi          = {10.1007/978-3-319-15545-6\_16},
+	timestamp    = {Wed, 20 Sep 2023 08:58:09 +0200},
+	biburl       = {https://dblp.org/rec/conf/birthday/LiuOM15.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/qest/LiuNGRGM15,
+	abbr={QEST'15},	
+	
+	author       = {Si Liu and
+	Son Nguyen and
+	Jatin Ganhotra and
+	Muntasir Raihan Rahman and
+	Indranil Gupta and
+	Jos{\'{e}} Meseguer},
+	editor       = {Javier Campos and
+	Boudewijn R. Haverkort},
+	title        = {Quantitative Analysis of Consistency in NoSQL Key-Value Stores},
+	booktitle    = {Quantitative Evaluation of Systems, 12th International Conference,
+	{QEST} 2015, Madrid, Spain, September 1-3, 2015, Proceedings},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {9259},
+	pages        = {228--243},
+	publisher    = {Springer},
+	year         = {2015},
+	url          = {https://doi.org/10.1007/978-3-319-22264-6\_15},
+	doi          = {10.1007/978-3-319-22264-6\_15},
+	timestamp    = {Wed, 20 Sep 2023 08:58:10 +0200},
+	biburl       = {https://dblp.org/rec/conf/qest/LiuNGRGM15.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icfem/LiuRSGM14,
+	abbr={ICFEM'14},	
+	
+	author       = {Si Liu and
+	Muntasir Raihan Rahman and
+	Stephen Skeirik and
+	Indranil Gupta and
+	Jos{\'{e}} Meseguer},
+	editor       = {Stephan Merz and
+	Jun Pang},
+	title        = {Formal Modeling and Analysis of Cassandra in Maude},
+	booktitle    = {Formal Methods and Software Engineering - 16th International Conference
+	on Formal Engineering Methods, {ICFEM} 2014, Luxembourg, Luxembourg,
+	November 3-5, 2014. Proceedings},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {8829},
+	pages        = {332--347},
+	publisher    = {Springer},
+	year         = {2014},
+	url          = {https://doi.org/10.1007/978-3-319-11737-9\_22},
+	doi          = {10.1007/978-3-319-11737-9\_22},
+	timestamp    = {Wed, 20 Sep 2023 08:58:09 +0200},
+	biburl       = {https://dblp.org/rec/conf/icfem/LiuRSGM14.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{DBLP:conf/wrla/LiuOM14,
+	abbr={WRLA'14},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Jos{\'{e}} Meseguer},
+	editor       = {Santiago Escobar},
+	title        = {A Framework for Mobile Ad hoc Networks in Real-Time Maude},
+	booktitle    = {Rewriting Logic and Its Applications - 10th International Workshop,
+	{WRLA} 2014, Held as a Satellite Event of ETAPS, Grenoble, France,
+	April 5-6, 2014, Revised Selected Papers},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {8663},
+	pages        = {162--177},
+	publisher    = {Springer},
+	year         = {2014},
+	url          = {https://doi.org/10.1007/978-3-319-12904-4\_9},
+	doi          = {10.1007/978-3-319-12904-4\_9},
+	timestamp    = {Wed, 20 Sep 2023 08:58:10 +0200},
+	biburl       = {https://dblp.org/rec/conf/wrla/LiuOM14.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{DBLP:conf/prdc/Wu0ZZ14,
+	abbr={PRDC'14},	
+	
+	author       = {Xi Wu and
+	Si Liu and
+	Huibiao Zhu and
+	Yongxin Zhao},
+	title        = {Reasoning about Group-Based Mobility in MANETs},
+	booktitle    = {20th {IEEE} Pacific Rim International Symposium on Dependable Computing,
+	{PRDC} 2014, Singapore, November 18-21, 2014},
+	pages        = {244--253},
+	publisher    = {{IEEE} Computer Society},
+	year         = {2014},
+	url          = {https://doi.org/10.1109/PRDC.2014.39},
+	doi          = {10.1109/PRDC.2014.39},
+	timestamp    = {Fri, 16 Aug 2024 14:50:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/prdc/Wu0ZZ14.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{DBLP:journals/comsis/WuZZWL13,
+	abbr={ComSIS'13},	
+	
+	author       = {Xi Wu and
+	Huibiao Zhu and
+	Yongxin Zhao and
+	Zheng Wang and
+	Si Liu},
+	title        = {Modeling and verifying the Ariadne protocol using process algebra},
+	journal      = {Comput. Sci. Inf. Syst.},
+	volume       = {10},
+	number       = {1},
+	pages        = {393--421},
+	year         = {2013},
+	url          = {https://doi.org/10.2298/CSIS120601009W},
+	doi          = {10.2298/CSIS120601009W},
+	timestamp    = {Fri, 16 Aug 2024 14:50:30 +0200},
+	biburl       = {https://dblp.org/rec/journals/comsis/WuZZWL13.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{DBLP:conf/ecbs/WuLZZC12,
+	abbr={ECBS'12},	
+
+	author       = {Xi Wu and
+	Si Liu and
+	Huibiao Zhu and
+	Yongxin Zhao and
+	Lei Chen},
+	editor       = {Miroslav Popovic and
+	Bernhard Sch{\"{a}}tz and
+	Sebastian Voss},
+	title        = {Modeling and Verifying the Ariadne Protocol Using {CSP}},
+	booktitle    = {{IEEE} 19th International Conference and Workshops on Engineering
+	of Computer-Based Systems, {ECBS} 2012, Novi Sad, Serbia, April 11-13,
+	2012},
+	pages        = {24--32},
+	publisher    = {{IEEE} Computer Society},
+	year         = {2012},
+	url          = {https://doi.org/10.1109/ECBS.2012.31},
+	doi          = {10.1109/ECBS.2012.31},
+	timestamp    = {Fri, 16 Aug 2024 14:50:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/ecbs/WuLZZC12.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/hase/LiuZZL11,
+	abbr={HASE'11},	
+	
+	author       = {Si Liu and
+	Yongxin Zhao and
+	Huibiao Zhu and
+	Qin Li},
+	editor       = {Taghi M. Khoshgoftaar},
+	title        = {A Calculus for Mobile Ad Hoc Networks from a Group Probabilistic Perspective},
+	booktitle    = {13th {IEEE} International Symposium on High-Assurance Systems Engineering,
+	{HASE} 2011, Boca Raton, FL, USA, November 10-12, 2011},
+	pages        = {157--162},
+	publisher    = {{IEEE} Computer Society},
+	year         = {2011},
+	url          = {https://doi.org/10.1109/HASE.2011.13},
+	doi          = {10.1109/HASE.2011.13},
+	timestamp    = {Fri, 16 Aug 2024 14:50:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/hase/LiuZZL11.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/iceccs/ZhaoHHL11,
+	abbr={ICECCS'11},	
+
+	author       = {Yongxin Zhao and
+	Yanhong Huang and
+	Jifeng He and
+	Si Liu},
+	editor       = {Isabelle Perseil and
+	Karin K. Breitman and
+	Roy Sterritt},
+	title        = {Formal Model of Interrupt Program from a Probabilistic Perspective},
+	booktitle    = {16th {IEEE} International Conference on Engineering of Complex Computer
+	Systems, {ICECCS} 2011, Las Vegas, Nevada, USA, 27-29 April 2011},
+	pages        = {87--94},
+	publisher    = {{IEEE} Computer Society},
+	year         = {2011},
+	url          = {https://doi.org/10.1109/ICECCS.2011.16},
+	doi          = {10.1109/ICECCS.2011.16},
+	timestamp    = {Fri, 16 Aug 2024 14:50:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/iceccs/ZhaoHHL11.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ssiri/LiuWLZW11,
+	abbr={SSIRI'11},	
+	
+	author       = {Si Liu and
+	Xiaofeng Wu and
+	Qin Li and
+	Huibiao Zhu and
+	Qian Wang},
+	title        = {Formal Approaches to Wireless Sensor Networks},
+	booktitle    = {Fifth International Conference on Secure Software Integration and
+	Reliability Improvement, {SSIRI} 2011, 27-29 June, 2011, Jeju Island,
+	Korea - Companion Volume},
+	pages        = {11--18},
+	publisher    = {{IEEE} Computer Society},
+	year         = {2011},
+	url          = {https://doi.org/10.1109/SSIRI-C.2011.13},
+	doi          = {10.1109/SSIRI-C.2011.13},
+	timestamp    = {Fri, 16 Aug 2024 14:50:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/ssiri/LiuWLZW11.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ssiri/ZhuZLG11,
+	abbr={SSIRI'11},	
+	
+	author       = {Han Zhu and
+	Huibiao Zhu and
+	Si Liu and
+	Jian Guo},
+	title        = {Towards Denotational Semantics for Verilog in {PVS}},
+	booktitle    = {Fifth International Conference on Secure Software Integration and
+	Reliability Improvement, {SSIRI} 2011, 27-29 June, 2011, Jeju Island,
+	Korea - Companion Volume},
+	pages        = {1--2},
+	publisher    = {{IEEE} Computer Society},
+	year         = {2011},
+	url          = {https://doi.org/10.1109/SSIRI-C.2011.10},
+	doi          = {10.1109/SSIRI-C.2011.10},
+	timestamp    = {Fri, 16 Aug 2024 14:50:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/ssiri/ZhuZLG11.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/tase/LiuZZL11,
+	abbr={TASE'11},	
+	
+	author       = {Si Liu and
+	Yongxin Zhao and
+	Huibiao Zhu and
+	Qin Li},
+	editor       = {Zhenhua Duan and
+	C.{-}H. Luke Ong},
+	title        = {Towards a Probabilistic Calculus for Mobile Ad Hoc Networks},
+	booktitle    = {5th {IEEE} International Symposium on Theoretical Aspects of Software
+	Engineering, {TASE} 2011, Xi'an, China, 29-31 August 2011},
+	pages        = {195--198},
+	publisher    = {{IEEE} Computer Society},
+	year         = {2011},
+	url          = {https://doi.org/10.1109/TASE.2011.9},
+	doi          = {10.1109/TASE.2011.9},
+	timestamp    = {Fri, 16 Aug 2024 14:50:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/tase/LiuZZL11.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/tase/WangZZL11,
+	abbr={TASE'11},	
+	
+	author       = {Mengying Wang and
+	Huibiao Zhu and
+	Yongxin Zhao and
+	Si Liu},
+	editor       = {Zhenhua Duan and
+	C.{-}H. Luke Ong},
+	title        = {Modeling and Analyzing the (mu)TESLA Protocol Using {CSP}},
+	booktitle    = {5th {IEEE} International Symposium on Theoretical Aspects of Software
+	Engineering, {TASE} 2011, Xi'an, China, 29-31 August 2011},
+	pages        = {247--250},
+	publisher    = {{IEEE} Computer Society},
+	year         = {2011},
+	url          = {https://doi.org/10.1109/TASE.2011.10},
+	doi          = {10.1109/TASE.2011.10},
+	timestamp    = {Fri, 16 Aug 2024 14:50:31 +0200},
+	biburl       = {https://dblp.org/rec/conf/tase/WangZZL11.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/utp/LiZWL10,
+	abbr={UTP'10},	
+	
+	author       = {Qin Li and
+	Yongxin Zhao and
+	Xiaofeng Wu and
+	Si Liu},
+	editor       = {Shengchao Qin},
+	title        = {Promoting Models},
+	booktitle    = {Unifying Theories of Programming - Third International Symposium,
+	{UTP} 2010, Shanghai, China, November 15-16, 2010. Proceedings},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {6445},
+	pages        = {234--252},
+	publisher    = {Springer},
+	year         = {2010},
+	url          = {https://doi.org/10.1007/978-3-642-16690-7\_12},
+	doi          = {10.1007/978-3-642-16690-7\_12},
+	timestamp    = {Thu, 26 Nov 2020 16:35:37 +0100},
+	biburl       = {https://dblp.org/rec/conf/utp/LiZWL10.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
