@@ -26,7 +26,7 @@ social: true # includes social icons at the bottom of the page
 I'm a Senior Researcher 
 (Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
 [David Basin](https://people.inf.ethz.ch/basin/), 
-where I also previously worked as a postdoc.
+where I received the Career Seed Award.  I also previously worked as a postdoc in the same group.
 
 My research interests are broadly in formal methods,  software engineering, distributed systems,  cybersecurity,  and  the <b><i>intersection</i></b> of them.
 My current work focuses on <b><i>verifying & validating</i></b> the <b><i>designs & deployments</i></b> of  databases, the DNS, and AI systems, addressing both <b><i>qualitative</i></b> (e.g., reliability and robustness) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects.
