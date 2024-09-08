@@ -29,7 +29,7 @@ I'm a Senior Researcher
 where I received the Career Seed Award.  I also previously worked as a postdoc in the same group.
 
 My research interests are broadly in formal methods,  software engineering, distributed systems,  cybersecurity,  and  the <b><i>intersection</i></b> of them.
-My current work focuses on <b><i>verifying & validating</i></b> the <b><i>designs & deployments</i></b> of  databases, the DNS, and AI systems, addressing both <b><i>qualitative</i></b> (e.g., reliability and robustness) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects.
+My current work focuses on <b><i>verifying & validating</i></b> the <b><i>designs & deployments</i></b> of  databases, the DNS, and AI systems, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects.
 
 
 
