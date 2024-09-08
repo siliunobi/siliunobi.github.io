@@ -50,6 +50,23 @@
 	year      = {2024},
 	volume = {17},
 	number = {12},
+	abstract = {Transactional isolation is critical to the functional correctness of
+	database management systems (DBMSs). Much effort has recently
+	been devoted to finding isolation bugs and validating isolation
+	fulfilment in production DBMSs. However, there are still challenges
+	that existing isolation checkers have not yet fully addressed. For
+	instance, they may overlook bugs, incur high checking overhead,
+	and return hard-to-understand counterexamples.
+	We present IsoVista, the first black-box isolation checking system
+	that encompasses all the following features. It builds on faithful
+	characterizations of a range of isolation levels, ensuring the absence
+	of both false positives and missed bugs in collected DBMS execution
+	histories. IsoVista exhibits superior checking efficiency, compared to
+	the state-of-the-art, and visualizes violation scenarios, facilitating
+	the understanding of bugs found. It also supports profiling and
+	benchmarking the performance of isolation checkers under various
+	workloads, assisting developers of both DBMSs and checkers. We
+	showcase all these features through user-friendly interfaces},
 
     annotation={† student I supervised}
 }
@@ -65,7 +82,8 @@
 	address = {Philadelphia, PA},
 	pages = {5769--5786},
 	url = {https://www.usenix.org/conference/usenixsecurity24/presentation/duan},
-	publisher = {USENIX Association}
+	publisher = {USENIX Association},
+	abstract = {While DNS is often exploited by reflective DoS attacks, it can also be weaponized as a powerful amplifier to overload itself, as evidenced by a stream of recently discovered application-layer amplification attacks. Given the importance of DNS, the question arises of what the fundamental traits are for such attacks. To answer this question, we perform a systematic investigation by establishing a taxonomy of amplification primitives intrinsic to DNS and a framework to analyze their composability. This approach leads to the discovery of a large family of compositional amplification (CAMP) vulnerabilities, which can produce multiplicative effects with message amplification factors of hundreds to thousands. Our measurements with popular DNS implementations and open resolvers indicate the ubiquity and severity of CAMP vulnerabilities and the serious threats they pose to the Internet's crucial naming infrastructure.}
 }
 
 @inproceedings{DBLP:conf/cav/ZhiWLOZ24,
@@ -91,7 +109,8 @@
 	doi          = {10.1007/978-3-031-65630-9\_20},
 	timestamp    = {Fri, 02 Aug 2024 12:00:01 +0200},
 	biburl       = {https://dblp.org/rec/conf/cav/ZhiWLOZ24.bib},
-	bibsource    = {dblp computer science bibliography, https://dblp.org}
+	bibsource    = {dblp computer science bibliography, https://dblp.org},
+	abstract = {The rapid advance of deep reinforcement learning techniques enables the oversight of safety-critical systems through the utilization of Deep Neural Networks (DNNs). This underscores the pressing need to promptly establish certified safety guarantees for such DNN-controlled systems. Most of the existing verification approaches rely on qualitative approaches, predominantly employing reachability analysis. However, qualitative verification proves inadequate for DNN-controlled systems as their behaviors exhibit stochastic tendencies when operating in open and adversarial environments. In this paper, we propose a novel framework for unifying both qualitative and quantitative safety verification problems of DNN-controlled systems. This is achieved by formulating the verification tasks as the synthesis of valid neural barrier certificates (NBCs). Initially, the framework seeks to establish almost-sure safety guarantees through qualitative verification. In cases where qualitative verification fails, our quantitative verification method is invoked, yielding precise lower and upper bounds on probabilistic safety across both infinite and finite time horizons. To facilitate the synthesis of NBCs, we introduce their k-inductive variants. We also devise a simulation-guided approach for training NBCs, aiming to achieve tightness in computing precise certified lower and upper bounds. We prototype our approach into a tool called and showcase its efficacy on four classic DNN-controlled systems.}
 }
 
 @inproceedings{10.1007/978-3-031-50521-8_4,
@@ -137,6 +156,7 @@
 	timestamp    = {Tue, 07 May 2024 20:18:40 +0200},
 	biburl       = {https://dblp.org/rec/journals/pvldb/HuangLCWBLP23.bib},
 	bibsource    = {dblp computer science bibliography, https://dblp.org},
+	abstract = {Snapshot isolation (SI) is a prevalent weak isolation level that avoids	the performance penalty imposed by serializability and simultaneously prevents various undesired data anomalies. Nevertheless, SI	anomalies have recently been found in production cloud databases	that claim to provide the SI guarantee. Given the complex and often unavailable internals of such databases, a black-box SI checker is	highly desirable. In this paper we present PolySI, a black-box checker that efciently checks SI and provides understandable counterexamples 	upon detecting violations. PolySI builds on a characterization of	SI using generalized polygraphs (GPs), for which we establish its soundness and completeness. PolySI employs an SMT solver and	also accelerates SMT solving by utilizing a compact constraint encoding of GPs and domain-specifc optimizations for pruning constraints. As our extensive assessment demonstrates, PolySI successfully reproduces all of 2477 known SI anomalies, detects novel SI violations in three production cloud databases, identifes their 	causes, outperforms the state-of-the-art black-box checkers under a wide range of workloads, and can scale up to large workloads.},
 	
 	annotation={* I contributed equally to this work as a co-first author}
 }
@@ -154,7 +174,7 @@
 	pages = {397--417},
 	url = {https://www.usenix.org/conference/osdi23/presentation/jiang},
 	publisher = {USENIX Association},
-	month = jul
+	abstract = {Transactions are an important feature of database management systems (DBMSs), as they provide the ACID guarantees for a sequence of database operations. Consequently, approaches have been proposed to automatically find transactional bugs in DBMSs. However, they cannot handle complex operations and predicates common in real-world database queries, and thus miss bugs. This paper introduces a general, effective technique for finding transactional bugs in DBMSs that supports complex SQL queries and predicates. At the conceptual level, we address the test-oracle problem by constructing semantically-equivalent test cases based on fine-grained statement-level dependencies in transactions. At the technical level, we introduce (1) statement-dependency graphs to describe dependencies among SQL statements in transactions, (2) SQL-level instrumentation to capture possible statement-level dependencies, and (3) transactional oracle construction to generate semantically-equivalent test cases using statement-dependency graphs. We also establish the correctness of our approach in generating semantically-equivalent test cases. We have realized our technique as a tool, TxCheck, and evaluated it on three widely-used and well-tested DBMSs, namely TiDB, MySQL, and MariaDB. In total, TxCheck found 56 unique bugs, 52 of which have been confirmed and 18 already fixed. We believe that TxCheck can help solidify DBMSs’ support for transactions thanks to its generality and effectiveness.}
 }
 
 @inproceedings{10.1145/3603269.3604870,
@@ -204,6 +224,9 @@
 	timestamp    = {Fri, 01 Mar 2024 16:26:19 +0100},
 	biburl       = {https://dblp.org/rec/conf/nips/TianZ0WC023.bib},
 	bibsource    = {dblp computer science bibliography, https://dblp.org},
+	abstract = {Formally verifying deep reinforcement learning (DRL) systems suffers from both inaccurate verification results and limited scalability. The major obstacle lies in the large overestimation introduced inherently during training and then transforming the inexplicable decision-making models, i.e., deep neural networks (DNNs), into easy-to-verify models. In this paper, we propose an inverse transform-then-train approach, which first encodes a DNN into an equivalent set of efficiently and tightly verifiable linear control policies and then optimizes them via reinforcement learning. We accompany our inverse approach with a novel neural network model called piece-wise linear decision neural networks (PLDNNs), which are compatible with most existing DRL training algorithms with comparable performance against conventional DNNs. Our extensive experiments show that, compared to DNN-based DRL systems, PLDNN-based systems can be more efficiently and tightly verified with up to 
+	438 times speedup and a significant reduction in overestimation. In particular, even a complex 
+	12-dimensional DRL system is efficiently verified with up to 7 times deeper computation steps.},
 	
     annotation={† student I supervised}
 }
@@ -220,7 +243,7 @@
 	pages = {531--553},
 	url = {https://www.usenix.org/conference/nsdi23/presentation/duan},
 	publisher = {USENIX Association},
-	month = apr
+	abstract = {The variety and severity of recent DNS-based attacks under- score the importance of a secure naming system. Although DNSSEC provides data authenticity in theory, practical deployments unfortunately are fragile, costly, and typically lacks end-to-end (E2E) guarantees. This motivates us to rethink authentication in DNS fundamentally and introduce RHINE, a secure-by-design Internet naming system. RHINE offloads the authentication of zone delegation to an end-entity PKI and tames the operational complexity in an offline manner, allowing the efficient E2E authentication of zone data during online name resolution. With a novel logging mechanism, Delegation Transparency, RHINE achieves a highly robust trust model that can tolerate the compromise of all but one trusted entities and, for the first time, counters threats from superordinate zones. We formally verify RHINE's security properties using the Tamarin prover. We also demonstrate its practicality and performance advantages with a prototype implementation.}
 }
 
 @inproceedings{10.1145/3597926.3598127,
@@ -265,7 +288,8 @@
 	doi          = {10.1109/CVPR52729.2023.01559},
 	timestamp    = {Tue, 07 May 2024 20:02:32 +0200},
 	biburl       = {https://dblp.org/rec/conf/cvpr/ZhangXC0ZL023.bib},
-	bibsource    = {dblp computer science bibliography, https://dblp.org}
+	bibsource    = {dblp computer science bibliography, https://dblp.org},
+	abstract = {This paper proposes a novel, abstraction-based, certified training method for robust image classifiers. Via abstraction, all perturbed images are mapped into intervals before feeding into neural networks for training. By training on intervals, all the perturbed images that are mapped to the same interval are classified as the same label, rendering the variance of training sets to be small and the loss landscape of the models to be smooth. Consequently, our approach significantly improves the robustness of trained models. For the abstraction, our training method also enables a sound and complete black-box verification approach, which is orthogonal and scalable to arbitrary types of neural networks regardless of their sizes and architectures. We evaluate our method on a wide range of benchmarks in different scales. The experimental results show that our method outperforms state of the art by (i) reducing the verified errors of trained models up to 95.64\%; (ii) totally achieving up to 602.50x speedup; and (iii) scaling up to larger models with up to 138 million trainable parameters. The demo is available at https://github.com/zhangzhaodi233/ABSCERT.git.}
 }
 
 
@@ -328,6 +352,7 @@
 	pages={147-162},
 	keywords={Resistance;Scalability;Prototypes;Bandwidth;Quality of service;Model checking;Network architecture;path aware internet architecture;secure bandwidth allocation;statistical model checking;invariants},
 	doi={10.1109/CSF54842.2022.9919646},
+	abstract = {We present N-Tube, a novel, provably secure, inter-domain bandwidth reservation algorithm that runs on a network architecture supporting path-based forwarding. N-Tube reserves global end-to-end bandwidth along network paths in a distributed, neighbor-based, and tube-fair way. It guarantees that benign bandwidth demands are granted available allocations that are immutable, stable, lower-bounded, andfair, even during adversarial demand bursts. We formalize N-Tube and powerful adversaries as a labeled transition system, and inductively prove its safety and security properties. We also apply statistical model checking to validate our proofs and perform an additional quantitative assessment of N-Tube, providing strong guarantees for protection against DDoS attacks. We are not aware of any other complex networked system designs that have been subjected to a comparable analysis of both their qualitative properties (such as correctness and security) and their quantitative properties (such as performance).},
 	
     annotation={* I contributed equally to this work as a co-first author}
 	}
