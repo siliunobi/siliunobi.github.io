@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: 
+subtitle: an optimist chasing the light
 
 profile:
   align: right
