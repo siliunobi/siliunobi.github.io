@@ -8,30 +8,30 @@ nav_order: 3
 ---
 
 <h3>2024</h3>
- - Fall: Computer Systems, ETH Zurich
- - Spring: Data Modeling and Databases, ETH Zurich
+ - Fall: Computer Systems 252-​0217-00L, ETH Zurich
+ - Spring: Data Modeling and Databases 252-0063-00L, ETH Zurich
 
 <h3>2023</h3>
- - Fall: Computer Systems, ETH Zurich
- - Spring: Data Modeling and Databases, ETH Zurich
+ - Fall: Computer Systems 252-​0217-00L, ETH Zurich
+ - Spring: Data Modeling and Databases 252-0063-00L, ETH Zurich
  
 <h3>2022</h3>
- - Fall: Information Systems for Engineers*, ETH Zurich
- - Spring: Data Modeling and Databases, ETH Zurich
+ - Fall: Information Systems for Engineers* 252-​0834-00L, ETH Zurich
+ - Spring: Data Modeling and Databases 252-0063-00L, ETH Zurich
  
 <h3>2021</h3>
- - Fall: Applied Security Lab, ETH Zurich
- - Spring: Data Modeling and Databases, ETH Zurich
+ - Fall: Applied Security Lab 252-0811-00L, ETH Zurich
+ - Spring: Data Modeling and Databases 252-0063-00L, ETH Zurich
  
 <h3>2020</h3>
- - Fall: Computer Systems, ETH Zurich
- - Spring: Data Modeling and Databases, ETH Zurich
+ - Fall: Computer Systems 252-​0217-00L, ETH Zurich
+ - Spring: Data Modeling and Databases 252-0063-00L, ETH Zurich
  
 <h3>2019</h3>
- - Fall: Applied Security Lab, ETH Zurich
+ - Fall: Applied Security Lab 252-0811-00L, ETH Zurich
  
 <h3>2016</h3>
- - Fall: Distributed Systems, UIUC
+ - Fall: Distributed Systems CS 425, UIUC
 
  
 <h3>2011</h3>
