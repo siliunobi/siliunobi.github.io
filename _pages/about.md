@@ -28,7 +28,7 @@ I'm a Senior Researcher
 [David Basin](https://people.inf.ethz.ch/basin/), 
 where I received the Career Seed Award.  I also previously worked as a postdoc in the same group.
 
-My research interests encompass formal methods, software engineering, systems, and cybersecurity, with a particular emphasis on their <b><i>intersection</i></b>. My current work focuses on <b><i>verifying & validating</i></b> the <b><i>designs & deployments</i></b> of  databases, DNS, and AI systems, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects.
+My research interests encompass formal methods, software engineering, distributed systems, and cybersecurity, with a particular emphasis on their <b><i>intersection</i></b>. My current work focuses on <b><i>verifying & validating</i></b> the <b><i>designs & deployments</i></b> of  databases and DNS, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects. I have also recently developed an interest in the verification of AI systems. 
 
 
 
