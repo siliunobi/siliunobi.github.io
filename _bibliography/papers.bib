@@ -196,6 +196,20 @@
 	series = {ACM SIGCOMM '23}
 }
 
+@inproceedings {286475,
+    abbr={NSDI 2023},
+    
+	author = {Huayi Duan and Rub{\'e}n Fischer and Jie Lou and Si Liu and David Basin and Adrian Perrig},
+	title = {{RHINE}: Robust and High-performance Internet Naming with {E2E} Authenticity},
+	booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+	year = {2023},
+	isbn = {978-1-939133-33-5},
+	address = {Boston, MA},
+	pages = {531--553},
+	url = {https://www.usenix.org/conference/nsdi23/presentation/duan},
+	publisher = {USENIX Association},
+	abstract = {The variety and severity of recent DNS-based attacks under- score the importance of a secure naming system. Although DNSSEC provides data authenticity in theory, practical deployments unfortunately are fragile, costly, and typically lacks end-to-end (E2E) guarantees. This motivates us to rethink authentication in DNS fundamentally and introduce RHINE, a secure-by-design Internet naming system. RHINE offloads the authentication of zone delegation to an end-entity PKI and tames the operational complexity in an offline manner, allowing the efficient E2E authentication of zone data during online name resolution. With a novel logging mechanism, Delegation Transparency, RHINE achieves a highly robust trust model that can tolerate the compromise of all but one trusted entities and, for the first time, counters threats from superordinate zones. We formally verify RHINE's security properties using the Tamarin prover. We also demonstrate its practicality and performance advantages with a prototype implementation.}
+}
 
 @inproceedings{DBLP:conf/nips/TianZ0WC023,
     abbr={NeurIPS 2023},
@@ -227,41 +241,6 @@
 	12-dimensional DRL system is efficiently verified with up to 7 times deeper computation steps.}
 }
 
-@inproceedings {286475,
-    abbr={NSDI 2023},
-    
-	author = {Huayi Duan and Rub{\'e}n Fischer and Jie Lou and Si Liu and David Basin and Adrian Perrig},
-	title = {{RHINE}: Robust and High-performance Internet Naming with {E2E} Authenticity},
-	booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
-	year = {2023},
-	isbn = {978-1-939133-33-5},
-	address = {Boston, MA},
-	pages = {531--553},
-	url = {https://www.usenix.org/conference/nsdi23/presentation/duan},
-	publisher = {USENIX Association},
-	abstract = {The variety and severity of recent DNS-based attacks under- score the importance of a secure naming system. Although DNSSEC provides data authenticity in theory, practical deployments unfortunately are fragile, costly, and typically lacks end-to-end (E2E) guarantees. This motivates us to rethink authentication in DNS fundamentally and introduce RHINE, a secure-by-design Internet naming system. RHINE offloads the authentication of zone delegation to an end-entity PKI and tames the operational complexity in an offline manner, allowing the efficient E2E authentication of zone data during online name resolution. With a novel logging mechanism, Delegation Transparency, RHINE achieves a highly robust trust model that can tolerate the compromise of all but one trusted entities and, for the first time, counters threats from superordinate zones. We formally verify RHINE's security properties using the Tamarin prover. We also demonstrate its practicality and performance advantages with a prototype implementation.}
-}
-
-@inproceedings{10.1145/3597926.3598127,
-    abbr={ISSTA 2023},
-    
-	author = {Xue, Zhiyi and Liu, Si and Zhang, Zhaodi and Wu, Yiting and Zhang, Min},
-	title = {A Tale of Two Approximations: Tightening Over-Approximation for DNN Robustness Verification via Under-Approximation},
-	year = {2023},
-	isbn = {9798400702211},
-	publisher = {Association for Computing Machinery},
-	address = {New York, NY, USA},
-	url = {https://doi.org/10.1145/3597926.3598127},
-	doi = {10.1145/3597926.3598127},
-	abstract = {The robustness of deep neural networks (DNNs) is crucial to the hosting system’s reliability and security. Formal verification has been demonstrated to be effective in providing provable robustness guarantees. To improve its scalability, over-approximating the non-linear activation functions in DNNs by linear constraints has been widely adopted, which transforms the verification problem into an efficiently solvable linear programming problem. Many efforts have been dedicated to defining the so-called tightest approximations to reduce overestimation imposed by over-approximation. In this paper, we study existing approaches and identify a dominant factor in defining tight approximation, namely the approximation domain of the activation function. We find out that tight approximations defined on approximation domains may not be as tight as the ones on their actual domains, yet existing approaches all rely only on approximation domains. Based on this observation, we propose a novel dual-approximation approach to tighten overapproximations, leveraging an activation function’s underestimated domain to define tight approximation bounds. We implement our approach with two complementary algorithms based respectively on Monte Carlo simulation and gradient descent into a tool called DualApp. We assess it on a comprehensive benchmark of DNNs with different architectures. Our experimental results show that DualApp significantly outperforms the state-of-the-art approaches with 100\% − 1000\% improvement on the verified robustness ratio and 10.64\% on average (up to 66.53\%) on the certified lower bound.},
-	booktitle = {Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis},
-	pages = {1182–1194},
-	numpages = {13},
-	keywords = {Deep neural network, over-approximation, robustness verification},
-	location = {Seattle, WA, USA},
-	series = {ISSTA 2023}
-}
-
 @inproceedings{DBLP:conf/cvpr/ZhangXC0ZL023,
     abbr={CVPR 2023},
     	
@@ -285,6 +264,28 @@
 	bibsource    = {dblp computer science bibliography, https://dblp.org},
 	abstract = {This paper proposes a novel, abstraction-based, certified training method for robust image classifiers. Via abstraction, all perturbed images are mapped into intervals before feeding into neural networks for training. By training on intervals, all the perturbed images that are mapped to the same interval are classified as the same label, rendering the variance of training sets to be small and the loss landscape of the models to be smooth. Consequently, our approach significantly improves the robustness of trained models. For the abstraction, our training method also enables a sound and complete black-box verification approach, which is orthogonal and scalable to arbitrary types of neural networks regardless of their sizes and architectures. We evaluate our method on a wide range of benchmarks in different scales. The experimental results show that our method outperforms state of the art by (i) reducing the verified errors of trained models up to 95.64\%; (ii) totally achieving up to 602.50x speedup; and (iii) scaling up to larger models with up to 138 million trainable parameters. The demo is available at https://github.com/zhangzhaodi233/ABSCERT.git.}
 }
+
+@inproceedings{10.1145/3597926.3598127,
+    abbr={ISSTA 2023},
+    
+	author = {Xue, Zhiyi and Liu, Si and Zhang, Zhaodi and Wu, Yiting and Zhang, Min},
+	title = {A Tale of Two Approximations: Tightening Over-Approximation for DNN Robustness Verification via Under-Approximation},
+	year = {2023},
+	isbn = {9798400702211},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3597926.3598127},
+	doi = {10.1145/3597926.3598127},
+	abstract = {The robustness of deep neural networks (DNNs) is crucial to the hosting system’s reliability and security. Formal verification has been demonstrated to be effective in providing provable robustness guarantees. To improve its scalability, over-approximating the non-linear activation functions in DNNs by linear constraints has been widely adopted, which transforms the verification problem into an efficiently solvable linear programming problem. Many efforts have been dedicated to defining the so-called tightest approximations to reduce overestimation imposed by over-approximation. In this paper, we study existing approaches and identify a dominant factor in defining tight approximation, namely the approximation domain of the activation function. We find out that tight approximations defined on approximation domains may not be as tight as the ones on their actual domains, yet existing approaches all rely only on approximation domains. Based on this observation, we propose a novel dual-approximation approach to tighten overapproximations, leveraging an activation function’s underestimated domain to define tight approximation bounds. We implement our approach with two complementary algorithms based respectively on Monte Carlo simulation and gradient descent into a tool called DualApp. We assess it on a comprehensive benchmark of DNNs with different architectures. Our experimental results show that DualApp significantly outperforms the state-of-the-art approaches with 100\% − 1000\% improvement on the verified robustness ratio and 10.64\% on average (up to 66.53\%) on the certified lower bound.},
+	booktitle = {Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis},
+	pages = {1182–1194},
+	numpages = {13},
+	keywords = {Deep neural network, over-approximation, robustness verification},
+	location = {Seattle, WA, USA},
+	series = {ISSTA 2023}
+}
+
+
 
 
 @article{10.1145/3563299,
@@ -352,24 +353,7 @@
 	}
 
 
-@inproceedings{10.1145/3551349.3556907,
-	abbr={ASE 2022},
-	
-	author = {Zhang, Zhaodi and Wu, Yiting and Liu, Si and Liu, Jing and Zhang, Min},
-	title = {Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks},
-	year = {2022},
-	isbn = {9781450394758},
-	publisher = {Association for Computing Machinery},
-	address = {New York, NY, USA},
-	url = {https://doi.org/10.1145/3551349.3556907},
-	doi = {10.1145/3551349.3556907},
-	abstract = {The robustness of deep neural networks is crucial to modern AI-enabled systems and should be formally verified. Sigmoid-like neural networks have been adopted in a wide range of applications. Due to their non-linearity, Sigmoid-like activation functions are usually over-approximated for efficient verification, which inevitably introduces imprecision. Considerable efforts have been devoted to finding the so-called tighter approximations to obtain more precise verification results. However, existing tightness definitions are heuristic and lack theoretical foundations. We conduct a thorough empirical analysis of existing neuron-wise characterizations of tightness and reveal that they are superior only on specific neural networks. We then introduce the notion of network-wise tightness as a unified tightness definition and show that computing network-wise tightness is a complex non-convex optimization problem. We bypass the complexity from different perspectives via two efficient, provably tightest approximations. The results demonstrate the promising performance achievement of our approaches over state of the art: (i) achieving up to 251.28\% improvement to certified lower robustness bounds; and (ii) exhibiting notably more precise verification results on convolutional networks.},
-	booktitle = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
-	articleno = {80},
-	numpages = {13},
-	location = {Rochester, MI, USA},
-	series = {ASE '22}
-}
+
 
 
 @INBOOK{scion-1,
@@ -398,7 +382,24 @@
 	pages={}
 }
 
-
+@inproceedings{10.1145/3551349.3556907,
+	abbr={ASE 2022},
+	
+	author = {Zhang, Zhaodi and Wu, Yiting and Liu, Si and Liu, Jing and Zhang, Min},
+	title = {Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks},
+	year = {2022},
+	isbn = {9781450394758},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3551349.3556907},
+	doi = {10.1145/3551349.3556907},
+	abstract = {The robustness of deep neural networks is crucial to modern AI-enabled systems and should be formally verified. Sigmoid-like neural networks have been adopted in a wide range of applications. Due to their non-linearity, Sigmoid-like activation functions are usually over-approximated for efficient verification, which inevitably introduces imprecision. Considerable efforts have been devoted to finding the so-called tighter approximations to obtain more precise verification results. However, existing tightness definitions are heuristic and lack theoretical foundations. We conduct a thorough empirical analysis of existing neuron-wise characterizations of tightness and reveal that they are superior only on specific neural networks. We then introduce the notion of network-wise tightness as a unified tightness definition and show that computing network-wise tightness is a complex non-convex optimization problem. We bypass the complexity from different perspectives via two efficient, provably tightest approximations. The results demonstrate the promising performance achievement of our approaches over state of the art: (i) achieving up to 251.28\% improvement to certified lower robustness bounds; and (ii) exhibiting notably more precise verification results on convolutional networks.},
+	booktitle = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+	articleno = {80},
+	numpages = {13},
+	location = {Rochester, MI, USA},
+	series = {ASE '22}
+}
 
 @INPROCEEDINGS{9546747,
 	abbr={TASE 2021},
@@ -472,6 +473,31 @@
 }
 
 
+
+
+
+@article{DBLP:journals/fac/LiuOWGM19,
+	abbr={FAoC 2019},	
+	
+	author       = {Si Liu and
+	Peter Csaba {\"{O}}lveczky and
+	Qi Wang and
+	Indranil Gupta and
+	Jos{\'{e}} Meseguer},
+	title        = {Read atomic transactions with prevention of lost updates: {ROLA} and
+	its formal analysis},
+	journal      = {Formal Aspects Comput.},
+	volume       = {31},
+	number       = {5},
+	pages        = {503--540},
+	year         = {2019},
+	url          = {https://doi.org/10.1007/s00165-019-00489-w},
+	doi          = {10.1007/S00165-019-00489-W},
+	timestamp    = {Tue, 07 May 2024 20:27:21 +0200},
+	biburl       = {https://dblp.org/rec/journals/fac/LiuOWGM19.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
 @inproceedings{DBLP:conf/ccs/WangDYL0G19,
 	abbr={CCS 2019},	
 	
@@ -499,29 +525,6 @@
 }
 
 
-@article{DBLP:journals/fac/LiuOWGM19,
-	abbr={FAoC 2019},	
-	
-	author       = {Si Liu and
-	Peter Csaba {\"{O}}lveczky and
-	Qi Wang and
-	Indranil Gupta and
-	Jos{\'{e}} Meseguer},
-	title        = {Read atomic transactions with prevention of lost updates: {ROLA} and
-	its formal analysis},
-	journal      = {Formal Aspects Comput.},
-	volume       = {31},
-	number       = {5},
-	pages        = {503--540},
-	year         = {2019},
-	url          = {https://doi.org/10.1007/s00165-019-00489-w},
-	doi          = {10.1007/S00165-019-00489-W},
-	timestamp    = {Tue, 07 May 2024 20:27:21 +0200},
-	biburl       = {https://dblp.org/rec/journals/fac/LiuOWGM19.bib},
-	bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-
-
 @phdthesis{DBLP:phd/us/Liu19e,
 	abbr={PhD Thesis},	
 		
@@ -535,6 +538,8 @@
 	biburl       = {https://dblp.org/rec/phd/us/Liu19e.bib},
 	bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+
+
 
 @inproceedings{DBLP:conf/fase/LiuOSWGM18,
 	abbr={FASE 2018},	
