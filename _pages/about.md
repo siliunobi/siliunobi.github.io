@@ -29,7 +29,7 @@ I'm a Senior Researcher
 where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group.
 
 My research interests encompass formal methods (FM), software engineering (SE), and distributed systems, with a particular emphasis on <b>applying FM and SE techniques to build reliable, secure, and efficient distributed systems</b>. 
-My current work focuses on <b><i>verifying & validating</i></b> the <b><i>designs & deployments</i></b> of  databases and DNS, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects. I have also recently developed an interest in the verification of AI systems. 
+My current work focuses on verifying and validating the <b><i>designs & deployments</i></b> of  databases and DNS, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects. I have also recently developed an interest in the verification of AI systems. 
 
 
 I completed my PhD in Computer Science from the [University of Illinois  Urbana-Champaign](https://illinois.edu/), advised by Prof. [José Meseguer](https://formal.cs.illinois.edu/meseguer/), 
