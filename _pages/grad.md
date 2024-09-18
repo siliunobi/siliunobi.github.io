@@ -27,6 +27,8 @@
 	- Qiuhuan Xiong
 	- Jiang Xiao
 		- first employment: Agricultural Bank of China
+        - Teng Wang
+                - first employment: Alibaba Cloud
 	
 	
 - ECNU
