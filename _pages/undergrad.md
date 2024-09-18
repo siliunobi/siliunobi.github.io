@@ -15,7 +15,7 @@
 		- [[VLDB'23](https://www.vldb.org/pvldb/vol16/p1264-wei.pdf)]
 		- now Master at UCSD
 
-	- Teng Wang
+
 	
 - ECNU
 	- Zhou Zhou
