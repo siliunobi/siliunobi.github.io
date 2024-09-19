@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: mentoring
+title: students
 description: I have been fortunate to mentor the following students and have learned a great deal from them. I believe that in the pursuit of wisdom, there is no set path, and every craft has its masters.
 nav: true
 nav_order: 4
