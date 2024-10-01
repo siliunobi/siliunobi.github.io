@@ -15,7 +15,7 @@ nav_order: 5
 
 <h3>Reviewing</h3>
 
-- Journals: Journal of Logical and Algebraic Methods in Programming ([JLAMP](https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming)), Science of Computer Programming ([SCP](https://www.sciencedirect.com/journal/science-of-computer-programming))
+- Journals: [The VLDB Journal](https://link.springer.com/journal/778), Journal of Logical and Algebraic Methods in Programming ([JLAMP](https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming)), Science of Computer Programming ([SCP](https://www.sciencedirect.com/journal/science-of-computer-programming))
 
 
 - Conferences: FM, ICFEM, FASE, TASE
