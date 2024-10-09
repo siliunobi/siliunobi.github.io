@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-<h3>Programm Committees</h3>
+<h3>Programm Committee</h3>
 
 - 22nd USENIX Symposium on Networked Systems Design and Implementation ([NSDI 2025](https://www.usenix.org/conference/nsdi25))
 - 25th International Conference on Formal Engineering Methods ([ICFEM 2024](https://icfem2024.info/))
@@ -19,6 +19,10 @@ nav_order: 5
 
 
 - Conferences: FM, ICFEM, FASE, TASE
+
+<h3>Judge</h3>
+
+- Student Research Competition [SPLASH 2024](https://2024.splashcon.org/track/splash-2024-SRC)
 
 <h3>Others</h3>
 
