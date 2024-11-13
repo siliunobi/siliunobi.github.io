@@ -28,7 +28,7 @@ I'm a Senior Researcher
 [David Basin](https://people.inf.ethz.ch/basin/), 
 where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group.
 
-My research lies at the intersection of <b>formal methods (FM)</b>, <b>software engineering (SE)</b>,  <b>distributed systems</b>, and <b>security</b>, with a particular emphasis on
+My research lies at the intersection of formal methods (FM), software engineering (SE),  distributed systems, and security, with a particular emphasis on
 <b>leveraging FM & SE techniques to build reliable, secure, and performant distributed systems</b>. 
 My current work focuses on verifying and validating the <b><i>designs & deployments</i></b> of  <b>databases</b> and <b>DNS</b>, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects. 
 My interests also include verifying AI-powered systems.
