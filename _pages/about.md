@@ -28,8 +28,10 @@ I'm a Senior Researcher
 [David Basin](https://people.inf.ethz.ch/basin/), 
 where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group.
 
-My research interests encompass formal methods (FM), software engineering (SE), and distributed systems, with a particular emphasis on <b>applying FM/SE techniques to build reliable, secure, and efficient distributed systems</b>. 
-My current work focuses on verifying and validating the <b><i>designs & deployments</i></b> of  databases and DNS, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects. I have also recently developed an interest in verifying AI-powered systems. 
+My research lies at the intersection of formal methods (FM), software engineering (SE),  distributed systems, and security, with a particular emphasis on
+<b>leveraging FM & SE techniques to build reliable, secure, and performant distributed systems</b>. 
+My current work focuses on verifying and validating the <b><i>designs & deployments</i></b> of  <b><i>databases</i></b> and <b><i>DNS</i></b>, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects. 
+My interests also include verifying AI-powered systems.
 
 
 I completed my PhD in Computer Science from the [University of Illinois  Urbana-Champaign](https://illinois.edu/), advised by Prof. [José Meseguer](https://formal.cs.illinois.edu/meseguer/), 
