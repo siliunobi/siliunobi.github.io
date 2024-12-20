@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our demo paper "IsoVista: Black-box Checking Database Isolation Guarantees" was accepted at VLDB 2024.
+Our  paper "IsoVista: Black-box Checking Database Isolation Guarantees" was accepted at VLDB 2024.
