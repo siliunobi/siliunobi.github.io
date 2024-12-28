@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+- Making Distributed Systems Dependable and Performant: from Design to Deployment. School of Computer Science and Technology, Nanjing University, 2024. 
+
 - Plume: Efficient and Complete Black‑box Checking of Weak Isolation Levels. OOPSLA'24, Pasadena, USA, 2024.
 
 - NOC-NOC: Towards Performance-optimal Distributed Transactions. SIGMOD'24, Santiago, Chile, 2024.
