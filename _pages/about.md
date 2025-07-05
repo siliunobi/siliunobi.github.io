@@ -19,14 +19,14 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <!--[[research statement]()] [[teaching statement]()] -->
-<span style="font-size:20px">[[CV](/assets/pdf/Si_Liu_CV.pdf)]</span>
+<!-- <span style="font-size:20px">[[CV](/assets/pdf/Si_Liu_CV.pdf)]</span> -->
 
-<b>I'm on the job market!</b> I've fulfilled all the goals I set for myself before coming to ETH Zurich, and along the way, I’ve come to truly understand the wisdom in the parting words of Prof. José Meseguer: <i>”Discover what it means to work alongside some of the brightest minds in the world.”</i>  Now, a new chapter awaits. I'm eager to see where fate will lead me next. I believe everything unfolds in the best possible way!
+<!-- <b>I'm on the job market!</b> I've fulfilled all the goals I set for myself before coming to ETH Zurich, and along the way, I’ve come to truly understand the wisdom in the parting words of Prof. José Meseguer: <i>”Discover what it means to work alongside some of the brightest minds in the world.”</i>  Now, a new chapter awaits. I'm eager to see where fate will lead me next. I believe everything unfolds in the best possible way! -->
 
-I'm a Senior Researcher 
+ I'm a Senior Researcher 
 (Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
 [David Basin](https://people.inf.ethz.ch/basin/), 
-where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group.
+where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group. 
 
 My research lies at the intersection of formal methods (FM), software engineering (SE),  distributed systems, and security, with a particular emphasis on
 <b>leveraging FM & SE techniques to build reliable, secure, and performant distributed systems</b>. 
