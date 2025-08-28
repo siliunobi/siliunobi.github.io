@@ -25,6 +25,7 @@ social: true # includes social icons at the bottom of the page
 <!-- <b>I'm on the job market!</b> I've fulfilled all the goals I set for myself before coming to ETH Zurich, and along the way, I’ve come to truly understand the wisdom in the parting words of Prof. José Meseguer: <i>”Discover what it means to work alongside some of the brightest minds in the world.”</i>  Now, a new chapter awaits. I'm eager to see where fate will lead me next. I believe everything unfolds in the best possible way! -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a href='https://engineering.tamu.edu/cse/index.html'>Department of Computer Science & Engineering</a>, [Texas A&M University](https://www.tamu.edu/index.html).
 
 My research lies at the intersection of <b>formal methods</b>, <b>software engineering</b>, <b>systems</b>, and <b>security</b>, with a strong focus on
@@ -40,6 +41,11 @@ where I received the Career Seed Award.  I also previously worked as a postdoc i
 I am Si Liu, though I often go by <b>Nobi</b>. I am a Senior Researcher 
 (Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
 [David Basin](https://people.inf.ethz.ch/basin/), 
+=======
+I am Si Liu, though I often go by <b>Nobi</b>. I am a Senior Researcher 
+(Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
+[David Basin](https://people.inf.ethz.ch/basin/), 
+>>>>>>> parent of 6d343b1 (Update about.md)
 where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group. 
 
 My research lies at the intersection of formal methods (FM), software engineering (SE),  distributed systems, and security, with a particular emphasis on
@@ -48,6 +54,9 @@ My current work focuses on verifying and validating the <b><i>designs & deployme
 My interests also include verifying AI-powered systems.
 
 
+<<<<<<< HEAD
+>>>>>>> parent of 6d343b1 (Update about.md)
+=======
 >>>>>>> parent of 6d343b1 (Update about.md)
 I completed my PhD in Computer Science from the [University of Illinois  Urbana-Champaign](https://illinois.edu/), advised by Prof. [José Meseguer](https://formal.cs.illinois.edu/meseguer/), 
 where I worked on design, verification and automatic implementation of correct-by-construction distributed database systems. 
@@ -55,8 +64,11 @@ where I worked on design, verification and automatic implementation of correct-b
 [East China Normal University](https://english.ecnu.edu.cn/).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting motivated PhD students!
 If you are interested in my research areas, please feel free to reach out to me at [si.liu@tamu.edu](mailto:si.liu@tamu.edu).</span>
+=======
+>>>>>>> parent of 6d343b1 (Update about.md)
 =======
 >>>>>>> parent of 6d343b1 (Update about.md)
 
