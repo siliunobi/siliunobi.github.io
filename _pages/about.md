@@ -23,22 +23,24 @@ social: true # includes social icons at the bottom of the page
 
 <!-- <b>I'm on the job market!</b> I've fulfilled all the goals I set for myself before coming to ETH Zurich, and along the way, I’ve come to truly understand the wisdom in the parting words of Prof. José Meseguer: <i>”Discover what it means to work alongside some of the brightest minds in the world.”</i>  Now, a new chapter awaits. I'm eager to see where fate will lead me next. I believe everything unfolds in the best possible way! -->
 
-I am Si Liu, though I often go by <b>Nobi</b>. I am a Senior Researcher 
-(Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
+I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a href='https://engineering.tamu.edu/cse/index.html'>Department of Computer Science & Engineering</a>, [Texas A&M University](https://www.tamu.edu/index.html).
+
+My research lies at the intersection of formal methods,  software engineering, systems, and security, with a strong focus on
+<b>leveraging formal verification techniques to build reliable, secure, and performant distributed systems</b>. 
+Recently, I have worked on verifying and validating both the <b><i>designs and deployments</i></b> of  <b>database systems</b> and <b>DNS</b>, addressing not only <b><i>qualitative</i></b> (e.g., reliability and security) but also <b><i>quantitative</i></b> (e.g., availability and scalability) aspects. 
+I am also deeply interested in the intersection of these areas with AI: both in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-powered systems themselves.
+
+Before I came to Texas,
+I was a Senior Researcher (Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
 [David Basin](https://people.inf.ethz.ch/basin/), 
-where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group. 
-
-My research lies at the intersection of formal methods (FM), software engineering (SE),  distributed systems, and security, with a particular emphasis on
-<b>leveraging FM & SE techniques to build reliable, secure, and performant distributed systems</b>. 
-My current work focuses on verifying and validating the <b><i>designs & deployments</i></b> of  <b>databases</b> and <b>DNS</b>, addressing both <b><i>qualitative</i></b> (e.g., reliability and security) <b><i>& quantitative</i></b> (e.g., availability and scalability) aspects. 
-My interests also include verifying AI-powered systems.
-
-
+where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group.  
 I completed my PhD in Computer Science from the [University of Illinois  Urbana-Champaign](https://illinois.edu/), advised by Prof. [José Meseguer](https://formal.cs.illinois.edu/meseguer/), 
 where I worked on design, verification and automatic implementation of correct-by-construction distributed database systems. 
  Before that, I obtained an MS in Computer Science and a BE in Software Engineering, both from 
 [East China Normal University](https://english.ecnu.edu.cn/).
 
+<span style="color:red; font-weight:bold; font-size: 1.5em;">I am recruiting motivated PhD students!
+If you are interested in my research areas, please feel free to reach out to me at [si.liu@tamu.edu](mailto:si.liu@tamu.edu).</span>
 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
