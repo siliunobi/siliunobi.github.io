@@ -28,7 +28,7 @@ I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a hr
 
 My research lies at the intersection of <b>formal methods</b>, <b>software engineering</b>, <b>systems</b>, and <b>security</b>, with a strong focus on
 <i>leveraging formal verification techniques to build reliable, secure, and performant distributed systems</i>. 
-Recently, I have worked on verifying and validating both the <i>designs and deployments</i> of  <b>database systems</b> and <b>DNS</b>, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
+In recent years, I have worked on verifying and validating both the <i>designs and deployments</i> of  <b>database systems</b> and <b>DNS</b>, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
 I am also deeply interested in the <b>intersection of these areas with AI</b>: <i>both</i> in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-powered systems themselves.
 
 Before I came to Texas,
@@ -37,8 +37,9 @@ I was a Senior Researcher (Deutsch: Oberassistent) in the <a href='https://infse
 where I received the Career Seed Award.  I also previously worked as a postdoc in the same group.  
 I completed my PhD in Computer Science from the [University of Illinois  Urbana-Champaign](https://illinois.edu/), advised by Prof. [José Meseguer](https://formal.cs.illinois.edu/meseguer/), 
 where I worked on design, verification and automatic implementation of correct-by-construction distributed database systems. 
- Before that, I obtained an MS in Computer Science and a BE in Software Engineering, both from 
-[East China Normal University](https://english.ecnu.edu.cn/).
+
+<!-- Before that, I obtained an MS in Computer Science and a BE in Software Engineering, both from 
+[East China Normal University](https://english.ecnu.edu.cn/). -->
 
 
 <span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting motivated PhD students!
