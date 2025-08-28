@@ -26,7 +26,7 @@ social: true # includes social icons at the bottom of the page
 
 I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a href='https://engineering.tamu.edu/cse/index.html'>Department of Computer Science & Engineering</a>, [Texas A&M University](https://www.tamu.edu/index.html).
 
-My research lies at the intersection of <b>formal methods<b>,  <b>software engineering<b>, <b>systems<b>, and <b>security<b>, with a strong focus on
+My research lies at the intersection of <b>formal methods</b>,  <b>software engineering</b>, <b>systems</b>, and <b>security</b>, with a strong focus on
 <i>leveraging formal verification techniques to build reliable, secure, and performant distributed systems</i>. 
 Recently, I have worked on verifying and validating both the <i>designs and deployments</i> of  <b>database systems</b> and <b>DNS</b>, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
 I am also deeply interested in the <b>intersection of these areas with AI</b>: <i>both</i> in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-powered systems themselves.
