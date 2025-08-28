@@ -25,21 +25,21 @@ social: true # includes social icons at the bottom of the page
 
 I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a href='https://engineering.tamu.edu/cse/index.html'>Department of Computer Science & Engineering</a>, [Texas A&M University](https://www.tamu.edu/index.html).
 
-My research lies at the intersection of formal methods,  software engineering, systems, and security, with a strong focus on
-<b>leveraging formal verification techniques to build reliable, secure, and performant distributed systems</b>. 
-Recently, I have worked on verifying and validating both the <b><i>designs and deployments</i></b> of  <b>database systems</b> and <b>DNS</b>, addressing not only <b><i>qualitative</i></b> (e.g., reliability and security) but also <b><i>quantitative</i></b> (e.g., availability and scalability) aspects. 
-I am also deeply interested in the intersection of these areas with AI: both in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-powered systems themselves.
+My research lies at the intersection of <b>formal methods<b>,  <b>software engineering<b>, <b>systems<b>, and <b>security<b>, with a strong focus on
+<i>leveraging formal verification techniques to build reliable, secure, and performant distributed systems</i>. 
+Recently, I have worked on verifying and validating both the <i>designs and deployments</i> of  <b>database systems</b> and <b>DNS</b>, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
+I am also deeply interested in the <b>intersection of these areas with AI</b>: <i>both</i> in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-powered systems themselves.
 
 Before I came to Texas,
 I was a Senior Researcher (Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
 [David Basin](https://people.inf.ethz.ch/basin/), 
-where I received the <b>Career Seed Award</b>.  I also previously worked as a postdoc in the same group.  
+where I received the Career Seed Award.  I also previously worked as a postdoc in the same group.  
 I completed my PhD in Computer Science from the [University of Illinois  Urbana-Champaign](https://illinois.edu/), advised by Prof. [José Meseguer](https://formal.cs.illinois.edu/meseguer/), 
 where I worked on design, verification and automatic implementation of correct-by-construction distributed database systems. 
  Before that, I obtained an MS in Computer Science and a BE in Software Engineering, both from 
 [East China Normal University](https://english.ecnu.edu.cn/).
 
-<span style="color:red; font-weight:bold; font-size: 1.5em;">I am recruiting motivated PhD students!
+<span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting motivated PhD students!
 If you are interested in my research areas, please feel free to reach out to me at [si.liu@tamu.edu](mailto:si.liu@tamu.edu).</span>
 
 
