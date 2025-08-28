@@ -1,6 +1,28 @@
+@article{ata,
+    abbr={Neural Networks},
+    
+	author       = {Shi Peng and
+	Si Liu and
+	Dapeng Zhi and
+	Peixin Wang and
+	Chenyang Xu and
+	Cheng Chen and
+	Min Zhang},
+	title        = {{ATA:} An Abstract-Train-Abstract approach for explanation-friendly
+	deep reinforcement learning},
+	journal      = {Neural Networks},
+	volume       = {190},
+	pages        = {107749},
+	year         = {2025},
+	doi          = {10.1016/J.NEUNET.2025.107749},
+	abstract = {Explaining decision-making neural network models in deep reinforcement learning (DRL) systems is crucial, albeit challenging. Abstract policy graphs (APGs) emerge as an effective method for elucidating these models. However, constructing highly explainable APGs with high-fidelity is challenging. Through empirical analysis, we glean an insight that a larger cluster size corresponds to an APG with higher fidelity. We present a novel approach called Abstract-Train-Abstract (ATA), building on the integration of two key ideas. Abstraction-based training facilitates the clustering of abstract states, expanding the scope of each cluster. Abstraction-oriented clustering ensures that states within the same cluster correspond to the same action. Identifying the cluster to which a state belongs enhances the accuracy of predicting its associated action. Our experiments show that ATA surpasses the state of the art, achieving up to 26.63% higher fidelity, while still preserving competitive rewards. Additionally, our user study demonstrates that ATA substantially improves the accuracy of user prediction by 35.7% on average.}
+}
+
+
+
 @article{gqs,
 	abbr={SIGMOD 2026},
-	selected={true},
+Neural Networks
 	
 	author = {Yin†, Zijing and Liu, Si and Basin, David},
 	title = {Testing Graph Databases with Synthesized Queries},
@@ -41,7 +63,7 @@
 	2025},
 	publisher    = {IEEE},
 	year         = {2025},
-	abstract = {TBA}
+	abstract = {Transactional isolation guarantees are crucial for database correctness. However, recent studies have uncovered numerous isolation bugs in production databases. The common black-box approach to isolation checking stresses databases with large, concurrent, randomized transaction workloads and verifies whether the resulting execution histories satisfy specified isolation levels. For strong isolation levels such as strict serializability, serializability, and snapshot isolation, this approach often incurs significant end-to-end checking overhead during both history generation and verification. We address these inefficiencies through the novel design of Mini-Transactions (MTs). MTs are compact, short transactions that execute much faster than general workloads, reducing overhead during history generation by minimizing database blocking and transaction retries. By leveraging MTs' read-modify-write pattern, we develop highly efficient algorithms to verify strong isolation levels in linear or quadratic time. Despite their simplicity, MTs are semantically rich and effectively capture common isolation anomalies described in the literature. We implement our verification algorithms and an MT workload generator in a tool called MTC. Experimental results show that MTC outperforms state-of-the-art tools in both history generation and verification. Moreover, MTC can detect bugs across various isolation levels in production databases while maintaining the effectiveness of randomized testing with general workloads, making it a cost-effective solution for black-box isolation checking.}
 }
 
 @article{veriso,
