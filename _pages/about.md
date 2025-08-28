@@ -42,7 +42,7 @@ where I worked on design, verification and automatic implementation of correct-b
 [East China Normal University](https://english.ecnu.edu.cn/). -->
 
 
-<span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting motivated PhD students!
+:rocket: <span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting motivated PhD students!
 If you are passionate about research and interested in working with me, please [contact me](mailto:si.liu@tamu.edu) at si.liu@tamu.edu with your CV and a brief statement of your research interests or future plans.</span>
 
 
