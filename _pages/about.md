@@ -42,7 +42,7 @@ where I worked on design, verification and automatic implementation of correct-b
 
 
 <span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting motivated PhD students!
-If you are interested in my research areas, please feel free to reach out to me at [si.liu@tamu.edu](mailto:si.liu@tamu.edu).</span>
+If you are passionate about research and interested in working with me, please contact me at si.liu@tamu.edu with your CV and a brief statement of your research interests or future plans.</span>
 
 
 
