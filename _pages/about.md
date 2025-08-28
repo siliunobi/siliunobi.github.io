@@ -9,9 +9,10 @@ profile:
   image: selfie.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Information Security Group</p>
-    <p>Dept. of Computer Science</p>
-    <p>ETH Zurich</p>
+    <p>Dept. of Computer Science & Engineering</p>
+    <p>Texas A&M University</p>
+    <p>PETR 225, 435 Nagle St</p>
+    <p>College Station, TX 77843</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
