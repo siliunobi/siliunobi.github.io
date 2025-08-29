@@ -445,7 +445,6 @@
 
 @article{10.1145/3494517,
     abbr={TOSEM 2022},
-    selected={true},
 
 	author = {Liu, Si},
 	title = {All in One: Design, Verification, and Implementation of SNOW-optimal Read Atomic Transactions},
@@ -486,7 +485,24 @@
 	}
 
 
-
+@inproceedings{10.1145/3551349.3556907,
+	abbr={ASE 2022},
+	
+	author = {Zhang, Zhaodi and Wu, Yiting and Liu, Si and Liu, Jing and Zhang, Min},
+	title = {Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks},
+	year = {2022},
+	isbn = {9781450394758},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3551349.3556907},
+	doi = {10.1145/3551349.3556907},
+	abstract = {The robustness of deep neural networks is crucial to modern AI-enabled systems and should be formally verified. Sigmoid-like neural networks have been adopted in a wide range of applications. Due to their non-linearity, Sigmoid-like activation functions are usually over-approximated for efficient verification, which inevitably introduces imprecision. Considerable efforts have been devoted to finding the so-called tighter approximations to obtain more precise verification results. However, existing tightness definitions are heuristic and lack theoretical foundations. We conduct a thorough empirical analysis of existing neuron-wise characterizations of tightness and reveal that they are superior only on specific neural networks. We then introduce the notion of network-wise tightness as a unified tightness definition and show that computing network-wise tightness is a complex non-convex optimization problem. We bypass the complexity from different perspectives via two efficient, provably tightest approximations. The results demonstrate the promising performance achievement of our approaches over state of the art: (i) achieving up to 251.28\% improvement to certified lower robustness bounds; and (ii) exhibiting notably more precise verification results on convolutional networks.},
+	booktitle = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+	articleno = {80},
+	numpages = {13},
+	location = {Rochester, MI, USA},
+	series = {ASE '22}
+}
 
 
 @INBOOK{scion-1,
@@ -515,24 +531,7 @@
 	pages={}
 }
 
-@inproceedings{10.1145/3551349.3556907,
-	abbr={ASE 2022},
-	
-	author = {Zhang, Zhaodi and Wu, Yiting and Liu, Si and Liu, Jing and Zhang, Min},
-	title = {Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks},
-	year = {2022},
-	isbn = {9781450394758},
-	publisher = {Association for Computing Machinery},
-	address = {New York, NY, USA},
-	url = {https://doi.org/10.1145/3551349.3556907},
-	doi = {10.1145/3551349.3556907},
-	abstract = {The robustness of deep neural networks is crucial to modern AI-enabled systems and should be formally verified. Sigmoid-like neural networks have been adopted in a wide range of applications. Due to their non-linearity, Sigmoid-like activation functions are usually over-approximated for efficient verification, which inevitably introduces imprecision. Considerable efforts have been devoted to finding the so-called tighter approximations to obtain more precise verification results. However, existing tightness definitions are heuristic and lack theoretical foundations. We conduct a thorough empirical analysis of existing neuron-wise characterizations of tightness and reveal that they are superior only on specific neural networks. We then introduce the notion of network-wise tightness as a unified tightness definition and show that computing network-wise tightness is a complex non-convex optimization problem. We bypass the complexity from different perspectives via two efficient, provably tightest approximations. The results demonstrate the promising performance achievement of our approaches over state of the art: (i) achieving up to 251.28\% improvement to certified lower robustness bounds; and (ii) exhibiting notably more precise verification results on convolutional networks.},
-	booktitle = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
-	articleno = {80},
-	numpages = {13},
-	location = {Rochester, MI, USA},
-	series = {ASE '22}
-}
+
 
 @INPROCEEDINGS{9546747,
 	abbr={TASE 2021},
