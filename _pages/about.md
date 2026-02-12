@@ -28,7 +28,7 @@ I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a hr
 
 My research lies at the intersection of <b>formal methods</b>, <b>databases</b>, and <b>distributed systems</b>, with a strong focus on
 <i>leveraging formal verification techniques to build reliable, secure, and performant systems</i>. 
-In recent years, I have worked on verifying and validating both the <i>designs and deployments</i> of  <b>database systems</b> and <b>DNS</b>, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
+In recent years, I have worked on verifying and validating both the <i>designs and deployments</i> of  database systems< and DNS, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
 I am also interested in the intersection of these areas with AI: both in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-powered systems themselves.
 
 Before I came to Texas,
