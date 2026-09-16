@@ -6,7 +6,7 @@ subtitle: an optimist chasing the light
 
 profile:
   align: right
-  image: notamu.jpg
+  image: notamu.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <!--<p>School of Data Science</p>-->
