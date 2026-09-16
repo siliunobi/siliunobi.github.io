@@ -9,10 +9,10 @@ profile:
   image: cuhksz.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Department of Computer Science & Engineering</p>
-    <p>Texas A&M University</p>
-    <p>PETR 225, 435 Nagle St</p>
-    <p>College Station, TX 77843</p>
+    <!--<p>School of Data Science</p>-->
+    <!--<p>CUHK, Shenzhen</p>-->
+    <!--<p>PETR 225, 435 Nagle St</p>-->
+    <!--<p>College Station, TX 77843</p>-->
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -24,25 +24,26 @@ social: true # includes social icons at the bottom of the page
 
 <!-- <b>I'm on the job market!</b> I've fulfilled all the goals I set for myself before coming to ETH Zurich, and along the way, I’ve come to truly understand the wisdom in the parting words of Prof. José Meseguer: <i>”Discover what it means to work alongside some of the brightest minds in the world.”</i>  Now, a new chapter awaits. I'm eager to see where fate will lead me next. I believe everything unfolds in the best possible way! -->
 
-I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a href='https://engineering.tamu.edu/cse/index.html'>Department of Computer Science & Engineering</a>, [Texas A&M University](https://www.tamu.edu/index.html).
+I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a href='https://sds.cuhk.edu.cn/en'>School of Data Science</a>, [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en).
 
 My research lies at the intersection of <b>formal methods</b>, <b>databases</b>, and <b>distributed systems</b>, with a strong focus on
 <i>leveraging formal verification techniques to build reliable, secure, and performant systems</i>. 
-In recent years, I have worked on verifying and validating both the <i>designs and deployments</i> of  database systems< and DNS, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
-I am also interested in the intersection of these areas with AI: both in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-powered systems themselves.
+In recent years, I have worked on verifying and validating both the <i>designs and deployments</i> of  database systems, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
+I am also interested in the intersection of these areas with AI: both in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-enabled systems themselves.
 
-Before I came to Texas,
-I was a Senior Researcher (Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
+Before joining CUHK-Shenzhen, I was an Assistant Professor in the [Department of Computer Science & Engineering](https://engineering.tamu.edu/cse/index.html) at [Texas A&M University](https://www.tamu.edu/index.html](https://www.tamu.edu/index.html).
+Prior to that,  I was a Senior Researcher (Deutsch: Oberassistent) in the <a href='https://infsec.ethz.ch/'>Information Security Group</a> at [ETH Zurich](https://ethz.ch/en.html), led by Prof. 
 [David Basin](https://people.inf.ethz.ch/basin/), 
-where I received the Career Seed Award.  I also previously worked as a postdoc in the same group.  
-I completed my PhD in Computer Science from the [University of Illinois  Urbana-Champaign](https://illinois.edu/), advised by Prof. [José Meseguer](https://formal.cs.illinois.edu/meseguer/), 
-where I worked on design, verification and automatic implementation of correct-by-construction distributed database systems. 
+where I received the Career Seed Award.  I also previously worked as a postdoctoral researcher in the same group.
+I completed my PhD in Computer Science from the [University of Illinois  Urbana-Champaign](https://illinois.edu/), advised by Prof. [José Meseguer](https://formal.cs.illinois.edu/meseguer/),
+ where I worked at the intersection of formal methods and distributed systems.
 
 <!-- Before that, I obtained an MS in Computer Science and a BE in Software Engineering, both from 
 [East China Normal University](https://english.ecnu.edu.cn/). -->
 
 <span style="color:red; font-weight:bold; font-size: 1.5em;">:rocket:</span>
-<span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting PhD, Master, and undergrad students to join my group.
+<span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting PhD, Master's, and undergrad students,
+	 as well as research assistants,  to join my group.
 If you are passionate about research and interested in working with me,  [contact me](mailto:nobiplusplus@gmail.com) with your CV and a brief statement of your research interests or future plans.</span>
 
 
