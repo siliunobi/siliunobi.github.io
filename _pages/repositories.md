@@ -7,8 +7,14 @@ nav: true
 nav_order: 5
 ---
 
+<h3>Organizing Committee</h3>
+
+- 1st Symposium on Consistency Checking Principles ([SCCP 2026](https://sccp-workshop.github.io/sccp26/index.html)), colated with [VLDB 2026](https://vldb.org/2026/)
+
 <h3>Programm Committee</h3>
 
+- 1st Symposium on Consistency Checking Principles ([SCCP 2026](https://sccp-workshop.github.io/sccp26/index.html)), colated with [VLDB 2026](https://vldb.org/2026/)
+- 36th USENIX Security Symposium ([SEC 2027](https://www.usenix.org/conference/usenixsecurity27))
 - 22nd USENIX Symposium on Networked Systems Design and Implementation ([NSDI 2025](https://www.usenix.org/conference/nsdi25))
 - 25th International Conference on Formal Engineering Methods ([ICFEM 2024](https://icfem2024.info/))
 - 24th International Conference on Formal Engineering Methods ([ICFEM 2023](https://formal-analysis.com/icfem/2023/))
