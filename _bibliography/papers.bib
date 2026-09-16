@@ -1,3 +1,73 @@
+@article{distranger,
+	abbr={VLDB 2027},
+	selected={true},
+	
+	author = {Zhou Zhou† and Si Liu and Hengfeng Wei  and Min Zhang},
+	title = {Distribution-Aware Distributed Database Testing},
+	year = {2027},
+	issue_date = {},
+	publisher = {},
+	volume = {},
+	number = {},
+	journal = {Proc. {VLDB} Endow.},
+	articleno = {},
+	numpages = {},
+	abstract = {Distributed database management systems (DDBMSs) introduce new challenges for assessing their reliability due to distribution-specific characteristics that affect query execution and optimization. 
+	Existing testing approaches, largely designed for centralized DBMSs, often fail to explore diverse distributed execution behaviors 
+	and suffer from low executability of generated test queries, 
+	thereby limiting their effectiveness in bug detection.
+	
+	
+	We propose DAT (Distribution-Aware Testing), a novel automated approach for detecting
+	query-processing bugs related to distribution strategies and distributed optimizations  in DDBMSs, by systematically leveraging distribution-aware information throughout the testing pipeline.
+	DAT builds on a set of techniques that capture diverse combinations of logical schemas and data distribution strategies, 
+	and performs guided query mutation to trigger a wide range of distributed query execution behaviors and optimizations, while improving query executability via historical feedback.
+	We implement our approach in a tool,  DistRanger, and evaluate it on four widely used 
+	production DDBMSs. 
+	It uncovers 31 previously unknown bugs, 
+	including 28 related to 
+	distributed query processing and optimization,
+	and outperforms state-of-the-art testers.},
+	annotation={† student I supervised}
+}
+
+@article{rocq-plume,
+	abbr={Feschi 2027},
+	selected={true},
+	
+	author       = {Long Gu† and Si Liu and Hengfeng Wei},
+	title        = {Mechanizing Transactional Anomalous Patterns for Weak Isolation Levels},
+	journal      = {Festschrift and Workshop in Honour of David Basin},
+	volume       = {},
+	number       = {},
+	pages        = {},
+	year         = {2027},
+	url          = {},
+	doi          = {},
+	abstract = {Recently proposed 
+	transactional anomalous patterns (TAPs)
+	provide a semantic characterization of 
+	weak 
+	isolation levels  
+	and
+	serve as the foundation for TAP-based isolation checking.
+	Yet, these characterizations currently exist only as pen-and-paper proofs.
+	We present the first machine-checked formalization of TAPs and their associated weak isolation levels in Rocq. 
+	We further establish machine-checked proofs of the corresponding TAP-based characterization theorems.
+	The mechanization process revealed two subtle issues in the original presentation:
+	an underspecified transaction history model 
+	and
+	an incomplete TAP characterization of the Read Atomicity isolation level that failed to capture violations of session guarantees. 
+	We address these issues by refining the definition of  transaction histories 
+	and the corresponding TAP definitions, and re-establish all characterization theorems in Rocq.
+	These refinements 
+	have further been integrated into 
+	the weak  isolation checker Plume.},
+	
+	annotation={† student I supervised}
+}
+
+
 @article{perf,
 	abbr={FM 2026},
 	selected={true},
