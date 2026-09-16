@@ -6,7 +6,7 @@ subtitle: an optimist chasing the light
 
 profile:
   align: right
-  image: tamu.jpg
+  image: cuhksz.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Computer Science & Engineering</p>
