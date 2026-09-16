@@ -45,7 +45,7 @@ I completed my PhD in Computer Science from the [University of Illinois  Urbana-
 <span style="color:red; font-weight:bold; font-size: 1.5em;">:rocket:</span>
 <span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting PhD, Master's, and undergrad students,
 	 as well as research assistants,  to join my group.
-If you are passionate about research and interested in working with me,  [contact me](mailto:liusi@cuhk.edu.cn) with your CV and a brief statement of your research interests or future plans.</span>
+If you are passionate about research and interested in working with me,  <a href="mailto:liusi@cuhk.edu.cn">contact me</a> with your CV and a brief statement of your research interests or future plans.</span>
 
 
 
