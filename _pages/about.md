@@ -26,10 +26,15 @@ social: true # includes social icons at the bottom of the page
 
 I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a href='https://sds.cuhk.edu.cn/en'>School of Data Science</a> at [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en).
 
-My research lies at the intersection of <b>formal methods</b>, <b>databases</b>, and <b>distributed systems</b>, with a strong focus on
+My research lies at the intersection of <b>formal verification</b>, <b>databases</b>, <b>distributed systems</b> and <b>AI</b>, centered around one fundamental question: <b><i>How can we make increasingly complex computer systems more reliable, secure, efficient, and trustworthy?</i></b>
+
+My research covers both traditional yet critical computer systems, such as databases, distributed systems, and network infrastructure, as well as rapidly evolving AI systems and AI for Systems. In recent years, I have been particularly interested in the <b>interplay between AI and system verification</b>: on the one hand, exploring how AI techniques can enhance vulnerability discovery and formal verification of software systems; on the other hand, developing formal verification and systems techniques to improve the reliability, security, performance, and interpretability of AI-enabled systems.
+
+
+<!--My research lies at the intersection of <b>formal methods</b>, <b>databases</b>, and <b>distributed systems</b>, with a strong focus on
 <i>leveraging formal verification techniques to build reliable, secure, and performant systems</i>. 
 In recent years, I have worked on verifying and validating both the <i>designs and deployments</i> of  database systems, addressing not only <i>qualitative</i> (e.g., reliability and security) but also <i>quantitative</i> (e.g., availability and scalability) aspects. 
-I am also interested in the intersection of these areas with AI: both in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-enabled systems themselves.
+I am also interested in the intersection of these areas with AI: both in applying AI techniques to strengthen testing and verification, and in developing rigorous methods for verifying AI-enabled systems themselves.-->
 
 Before joining CUHK-Shenzhen, I was an Assistant Professor in the [Department of Computer Science & Engineering](https://engineering.tamu.edu/cse/index.html) 
 at [Texas A&M University](https://www.tamu.edu/index.html).
@@ -44,8 +49,9 @@ I completed my PhD in Computer Science from the [University of Illinois  Urbana-
 
 <span style="color:red; font-weight:bold; font-size: 1.5em;">:rocket:</span>
 <span style="color:red; font-weight:bold; font-size: 1.2em;">I am recruiting PhD, Master's, and undergrad students,
-	 as well as research assistants,  to join my group.
-If you are passionate about research and interested in working with me,  <a href="mailto:liusi@cuhk.edu.cn">contact me</a> with your CV and a brief statement of your research interests or future plans.</span>
+	 as well as research assistants (RAs),  to join my group.
+	 If you are interested in making AI and complex software systems more reliable, secure, performant, and trustworthy, there are many exciting research problems to explore. Our research spans software engineering, formal verification, databases, distributed systems, and AI.
+ <a href="mailto:liusi@cuhk.edu.cn">Contact me</a> with your CV and a brief statement of your research interests or future plans.</span>
 
 
 
