@@ -13,6 +13,7 @@ nav_order: 5
 
 <h3>Programm Committee</h3>
 
+- 39th International Conference on Computer-Aided Verification ([CAV 2027](https://conferences.i-cav.org/2027/))
 - 1st Symposium on Consistency Checking Principles ([SCCP 2026](https://sccp-workshop.github.io/sccp26/index.html)), colated with [VLDB 2026](https://vldb.org/2026/)
 - 36th USENIX Security Symposium ([SEC 2027](https://www.usenix.org/conference/usenixsecurity27))
 - 22nd USENIX Symposium on Networked Systems Design and Implementation ([NSDI 2025](https://www.usenix.org/conference/nsdi25))
@@ -21,7 +22,7 @@ nav_order: 5
 
 <h3>Reviewing</h3>
 
-- Journals: [The VLDB Journal](https://link.springer.com/journal/778), Journal of Logical and Algebraic Methods in Programming ([JLAMP](https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming))
+- Journals: [The VLDB Journal](https://link.springer.com/journal/778), ACM Transactions on Software Engineering and Methodology ([TOSEM](https://dl.acm.org/journal/TOSEM)), Journal of Logical and Algebraic Methods in Programming ([JLAMP](https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming))
 
 - Conferences: FM, ICFEM, FASE, TASE
 
