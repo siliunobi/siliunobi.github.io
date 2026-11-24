@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 <!-- <b>I'm on the job market!</b> I've fulfilled all the goals I set for myself before coming to ETH Zurich, and along the way, I’ve come to truly understand the wisdom in the parting words of Prof. José Meseguer: <i>”Discover what it means to work alongside some of the brightest minds in the world.”</i>  Now, a new chapter awaits. I'm eager to see where fate will lead me next. I believe everything unfolds in the best possible way! -->
 
-I am Si Liu, though I often go by Nobi. I am an Assistant Professor in the <a href='https://sds.cuhk.edu.cn/en'>School of Data Science</a> at [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en).
+I am Si Liu, though I often go by Nobi. I am an Assistant Professor and Presidential Young Fellow in the <a href='https://sds.cuhk.edu.cn/en'>School of Data Science</a> at [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en).
 
 My research lies at the intersection of <b>formal verification</b>, <b>databases</b>, <b>distributed systems</b> and <b>AI</b>, centered around one fundamental question: <b><i>How can we make increasingly complex computer systems more reliable, secure, efficient, and trustworthy?</i></b>
 
